@@ -324,15 +324,15 @@ body {
 
 .carousel-left-box {
   position: absolute;
-  top: 0;
-  left: 230px;
+  top: 202px;
+  left: 587px;
   height: 414px;
   width: 400px;
   background-color: #ffffff;
   padding-left: 32px;
   padding-right: 32px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .carousel-left-box-title {
@@ -362,6 +362,7 @@ body {
 }
 
 .carousel-left-box-body span {
+  display: inline-block;
   margin-top: 10px;
   margin-right: 12px;
 }
