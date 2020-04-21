@@ -1,0 +1,157 @@
+/* 1 头部 head */
+body{
+  background-color: #f8f8f8
+}
+.head{
+  height: 180px;
+  width: 100%;
+  background-color: aquamarine
+}
+/* 1 头部 上 */
+.head-top{
+  height: 36px;
+  background-color: #f8f8f8;
+}
+/* 1 头部 上 左 */
+.head-top-left{
+  line-height: 36px;
+}
+.head-top-left>span{
+  float: left;
+  color: #666666;
+
+}
+.head-top-left>div{
+  float: left;
+}
+
+.head-top-left-switch{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.head-top-left-switch a{
+  border: 1px solid #e5e5e5;
+  color: #666666;
+  padding: 1px
+}
+
+.head-top-left-city a{
+  color: #999999;
+  padding: 1px
+  
+}
+.head-top-left-login a:first-child{
+margin-left: 20px;
+color: #fe8c00;
+}
+
+.head-top-left-login a:last-child{
+  margin-left: 5px;
+  color: #999999;
+  }
+/* 1 头部 上 右*/
+ .head-top-right{
+   float: right;
+  line-height: 36px;
+
+ }
+.head-top-right-ul>li{
+
+  float: left;
+  color: #999999;
+  text-align: center;
+}
+/* 1 头部 上 右 我的美团 */
+.head-top-right-ul>li{
+  width: 80px;
+}
+  .head-top-right-ul>li a{
+    color: #999999;
+  }
+.head-top-right-ul-li{
+    position: relative;
+}
+.head-top-right-ul-wo:hover .head-top-right-wo{
+display: block;
+}
+.head-top-right-ul-wo:hover{
+  background-color: #ffffff
+
+}
+  .head-top-right-wo{
+    display: none;
+    position: absolute;
+    left: 0;
+  }
+.head-top-right-wo>li{
+  width: 80px;
+  background-color: #ffffff;
+  text-align: center
+}
+
+/* 1 头部 上 右 商家中心 */
+.head-top-right-ul-li:hover .head-top-right-wo{
+  display: block;
+  }
+.head-top-right-shang{
+  display: none;
+  position: absolute;
+  left: -29px;
+  width: 110px;
+  background-color: #ffffff;
+}
+.head-top-right-ul-shang:hover .head-top-right-shang{
+  display: block
+}
+.head-top-right-ul-shang:hover{
+  background-color: #ffffff;
+
+}
+/* 1 头部 上 右 美团规则 */
+.head-top-right-mei{
+  display: none;
+  background-color: #ffffff
+}
+.head-top-right-ul-mei:hover .head-top-right-mei{
+  display: block;
+}
+.head-top-right-ul-mei:hover{
+  background-color: #ffffff
+
+}
+/* 2 轮播部分 carousel */
+.carousel{
+  height: 420px;
+  background-color: bisque
+}
+
+/* 3 电影 movie */
+.movie{
+  height:344px ;
+  background-color: cadetblue
+}
+/* 4 民宿 homestay */
+.homestay{
+  height: 696px;
+  background-color: coral
+}
+/* 5 猜你喜欢 like */
+.like{
+  height: 760px;
+  background-color: crimson;
+}
+/* 6 导航 nav */
+.nav{
+  height: 280px;
+  background-color: aquamarine
+}
+/* 7 用户帮助 help  */
+.heip{
+  height: 483px;
+  background-color: burlywood
+}
+/* 8 底部 foot */
+.foot{
+  height: 111px;
+  background-color: brown;
+}

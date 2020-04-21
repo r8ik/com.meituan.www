@@ -1,0 +1,378 @@
+/* 1 头部 head */
+body{
+  background-color: #f8f8f8
+}
+.head{
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+}
+/* 1 头部 上 */
+.head-top{
+  height: 40px;
+  background-color: #f8f8f8;
+}
+/* 1 头部 上 左 */
+.head-top-left{
+  line-height: 40px;
+}
+.head-top-left>span{
+  float: left;
+  color: #666666;
+
+}
+.head-top-left>div{
+  float: left;
+}
+
+.head-top-left-switch{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.head-top-left-switch a{
+  border: 1px solid #e5e5e5;
+  color: #666666;
+  padding: 1px
+}
+
+.head-top-left-city a{
+  color: #999999;
+  padding: 1px
+  
+}
+.head-top-left-login a:first-child{
+margin-left: 20px;
+color: #fe8c00;
+}
+
+.head-top-left-login a:last-child{
+  margin-left: 5px;
+  color: #999999;
+  }
+/* 1 头部 上 右*/
+ .head-top-right{
+   float: right;
+  line-height: 36px;
+
+ }
+.head-top-right-ul>li{
+
+  float: left;
+  color: #999999;
+  text-align: center;
+}
+/* 1 头部 上 右 我的美团 */
+.head-top-right-ul>li{
+  width: 80px;
+}
+  .head-top-right-ul>li a{
+    color: #999999;
+  }
+.head-top-right-ul-li{
+    position: relative;
+}
+.head-top-right-ul-wo:hover .head-top-right-wo{
+display: block;
+}
+.head-top-right-ul-wo:hover{
+  background-color: #ffffff
+
+}
+  .head-top-right-wo{
+    display: none;
+    position: absolute;
+    left: 0;
+  }
+.head-top-right-wo>li{
+  width: 80px;
+  background-color: #ffffff;
+  text-align: center
+}
+
+/* 1 头部 上 右 商家中心 */
+.head-top-right-ul-li:hover .head-top-right-wo{
+  display: block;
+  }
+.head-top-right-shang{
+  display: none;
+  position: absolute;
+  left: -29px;
+  width: 110px;
+  background-color: #ffffff;
+}
+.head-top-right-ul-shang:hover .head-top-right-shang{
+  display: block
+}
+.head-top-right-ul-shang:hover{
+  background-color: #ffffff;
+
+}
+/* 1 头部 上 右 美团规则 */
+.head-top-right-ul-mei{
+position: relative;
+}
+.head-top-right-mei{
+  
+  display: none;
+  position: absolute;
+  width: 80px;
+  background-color: #ffffff
+}
+.head-top-right-ul-mei:hover .head-top-right-mei{
+  display: block;
+}
+.head-top-right-ul-mei:hover{
+  background-color: #ffffff
+
+}
+  /* 1 头部 中*/
+.head-center{
+  height: 110px;
+  background-color: #fff;
+  /* 1 头部 中 标 */
+  .head-center-img{
+    float: left;
+    line-height: 98px;
+    img{
+      width: 128px;
+      height:46px
+    }
+    
+  }
+  /* 1 头部 中 input */
+  .head-center-input{
+    position: relative;
+    float: left;
+    margin-top: 26px;
+    margin-left: 174px;
+    width: 472px;
+    height: 34px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px 0px 0px 5px;
+    input{
+     margin-top: 8px;
+     margin-left: 10px;
+     font-size: 14px;
+     background-color: transparent;
+     border: none;
+     width: 100%;
+    }
+    &>span{
+      float: right;
+      width: 76px;
+      margin-top: -25px;
+      margin-right: -76px;
+      height: 36px;
+      background-color: #ffc300;
+      border-radius: 0px 5px 5px 0px;
+    }
+    // 热门搜索
+    .head-center-hot{
+      display: none;
+      position: absolute;
+      top: 34px;
+      left: 0;
+      height: 74px;
+      width: 470px;
+      border: 1px solid #e5e5e5;
+      background-color: #ffffff;
+      span{
+        display: inline-block;
+        color: #9a9a9a;
+        font-weight:600;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+// 1 头部 下 
+.head-bottom{
+  height: 50px;
+  // background-color: #fe8c00;
+  // 全部分类 
+  .head-bottom-all{
+     float: left;
+     width: 228px;
+     height: 100%;
+     border-top: 1px solid #e5e5e5;
+     border-left: 1px solid #e5e5e5;
+     border-right: 1px solid #e5e5e5;
+     background-color: #ffffff;
+span{
+  display: inline-block;
+  line-height: 50px;
+  color: #222222;
+  font-weight: 600;
+  margin-left: 15px;
+  font-size: 16px;
+}
+  }
+  // 右边部分
+  .head-bottom-right{
+    float: left;
+    li{
+      float: left;
+      margin-left: 50px;
+      line-height: 50px;
+      a{
+        color: #222222;
+        font-weight: 600;
+        font-size: 16px;
+        
+      }
+    }
+  }
+}
+
+
+
+
+
+
+/* 2 轮播部分 carousel */
+.carousel{
+  height: 468px;
+  // background-color: bisque;
+}
+.carousel-left{
+  position: relative;
+  width: 230px;
+  height: 426px;
+  background-color: #ffffff;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+    padding-top: 12px;
+    box-sizing: border-box;
+  li{
+    position: relative;
+    height: 26px;
+    i{
+      display: inline-block;
+      height: 16px;
+      width: 16px;
+      background-color: red;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-top: 5px;
+    }
+    span{
+      display: inline-block;
+    // line-height: 26px;
+    }
+
+    .carousel-left-li-a{
+      float: left;
+      font-size: 14px;
+      color: #646464;
+    }
+    .xia{
+      position: absolute;
+      top: 12px;
+      right: 14px;
+      height: 6px;
+      width: 1px;
+      background-color: #c7c7c7;
+      -webkit-transform: rotate(1deg);
+      transform: rotate(45deg);
+      
+    }
+    .shang{
+      position: absolute;
+      top: 8px;
+      right: 14px;
+      height: 6px;
+      width: 1px;
+      background-color: #c7c7c7;
+      -webkit-transform: rotate(1deg);
+      transform: rotate(135deg);
+    }
+
+
+  }
+ 
+}
+.carousel-left>li:hover{
+  background-color: #fff7eb;
+  .carousel-left-li-a{
+  font-weight: 600;
+   color: #222222;
+ }
+}
+// li里面的盒子
+.carousel-left-box{
+  position: absolute;
+  top: 0;
+  left: 230px;
+  height: 414px;
+  width: 400px;
+  background-color: #ffffff;
+ padding-left: 32px;
+ padding-right: 32px;
+ box-sizing: border-box;
+}
+.carousel-left-box-title{
+  height: 55px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.carousel-left-box-title-left{
+  float: left;
+  /* line-height: 54px; */
+  margin-top: 25px;
+  a{
+    font-size: 16px;
+    color: #222222;
+  }
+}
+.carousel-left-box-title-more{
+  float: right;
+  line-height: 55px;
+a{
+  color: #999999;
+  font-size: 14px;
+}
+}
+.carousel-left-box-body{
+  span{
+    margin-top: 10px;
+    margin-right: 12px;
+    a{
+      color: #999999;
+    }
+    a:hover{
+      color: #fe8c00;
+    }
+  }
+}
+
+/* 3 电影 movie */
+.movie{
+  height:344px ;
+  background-color: cadetblue
+}
+/* 4 民宿 homestay */
+.homestay{
+  height: 696px;
+  background-color: coral
+}
+/* 5 猜你喜欢 like */
+.like{
+  height: 760px;
+  background-color: crimson;
+}
+/* 6 导航 nav */
+.nav{
+  height: 280px;
+  background-color: aquamarine
+}
+/* 7 用户帮助 help  */
+.heip{
+  height: 483px;
+  background-color: burlywood
+}
+/* 8 底部 foot */
+.foot{
+  height: 111px;
+  background-color: brown;
+}
