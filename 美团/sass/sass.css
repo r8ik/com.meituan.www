@@ -221,6 +221,7 @@ body {
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
   background-color: #ffffff;
+  height: 49px;
 }
 
 .head-bottom .head-bottom-all span {
@@ -240,6 +241,7 @@ body {
   float: left;
   margin-left: 50px;
   line-height: 50px;
+  height: 50px;
 }
 
 .head-bottom .head-bottom-right li a {
@@ -254,6 +256,7 @@ body {
 }
 
 .carousel-left {
+  float: left;
   position: relative;
   width: 230px;
   height: 426px;
@@ -263,7 +266,7 @@ body {
   border-right: 1px solid #e5e5e5;
   padding-top: 12px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .carousel-left li {
@@ -322,7 +325,8 @@ body {
   color: #222222;
 }
 
-.carousel-left-box {
+/* 2 轮播部分 carousel li里面的盒子 */
+.carousel-left-AllBox {
   position: absolute;
   top: 202px;
   left: 587px;
@@ -335,6 +339,18 @@ body {
   box-sizing: border-box;
 }
 
+/* .carousel-left-box {
+  position: absolute;
+  top: 202px;
+  left: 587px;
+  height: 414px;
+  width: 400px;
+  background-color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
 .carousel-left-box-title {
   height: 55px;
   border-bottom: 1px solid #e5e5e5;
@@ -375,22 +391,528 @@ body {
   color: #fe8c00;
 }
 
+.carousel-left-AllBox {
+  display: none;
+}
+
+/* 轮播部分 carousel 右边 */
+.carousel-right {
+  float: left;
+  height: 416px;
+  width: 950px;
+  background-color: bisque;
+}
+
+/* 轮播部分 carousel 右边 上 */
+.carousel-right-top {
+  height: 242px;
+  width: 952px;
+  background-color: gold;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* 住酒店  */
+}
+
+.carousel-right-top .carousel-right-top-hotel {
+  float: left;
+  position: relative;
+  width: 551px;
+  height: 242px;
+  background-color: aqua;
+}
+
+.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-ul li {
+  position: absolute;
+}
+
+.carousel-right-top .carousel-right-top-hotel img {
+  width: 551px;
+  height: 242px;
+}
+
+.carousel-right-top .carousel-right-top-hotel .hide {
+  display: none;
+}
+
+.carousel-right-top .carousel-right-top-hotel .show {
+  display: block;
+}
+
+.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-left {
+  position: absolute;
+  top: 104px;
+  left: 8px;
+  height: 38px;
+  width: 38px;
+  background-color: #354a49;
+  border-radius: 50%;
+}
+
+.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-right {
+  position: absolute;
+  top: 104px;
+  right: 8px;
+  height: 38px;
+  width: 38px;
+  background-color: #48485c;
+  border-radius: 50%;
+}
+
+.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle {
+  position: absolute;
+  bottom: 10px;
+  left: 230px;
+}
+
+.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle li {
+  float: left;
+  width: 11px;
+  height: 2px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-right-top .carousel-right-top-life {
+  float: left;
+  width: 150px;
+  height: 241px;
+  margin-left: 10px;
+}
+
+.carousel-right-top .carousel-right-top-life img {
+  width: 150px;
+  height: 241px;
+}
+
+.carousel-right-top-login {
+  margin-left: 10px;
+  float: left;
+  width: 231px;
+  height: 241px;
+  background-color: #ffffff;
+}
+
+.carousel-right-top-login .carousel-right-top-login-img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 88px;
+}
+
+.carousel-right-top-login .carousel-right-top-login-img img {
+  height: 55px;
+  width: 55px;
+}
+
+.carousel-right-top-login h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #222222;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.carousel-right-top-login .carousel-right-top-login-div {
+  text-align: center;
+  height: 40px;
+  width: 118px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 16px;
+  margin-left: 54px;
+  line-height: 40px;
+  border-radius: 30px;
+}
+
+.carousel-right-top-login .carousel-right-top-login-div a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  color: #333333;
+}
+
+.carousel-right-bottom {
+  width: 955px;
+  height: 166px;
+  background-color: red;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-hotel, .carousel-right-bottom .carousel-right-bottom-zhang {
+  float: left;
+  width: 272px;
+  height: 166px;
+  margin-right: 10px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-hotel img, .carousel-right-bottom .carousel-right-bottom-zhang img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-right-bottom .carousel-right-bottom-wo {
+  float: left;
+  width: 150px;
+  height: 166px;
+  background-image: url(../images/index/carousel-right-bottom-wo.jpg);
+  background-repeat: cover;
+  background-size: 150px 166px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-wo a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-right-bottom .carousel-right-bottom-er {
+  float: left;
+  text-align: center;
+  width: 231px;
+  height: 166px;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-er img {
+  height: 75px;
+  width: 75px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-er h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #282a2d;
+  margin-bottom: 8px;
+}
+
+.carousel-right-bottom .carousel-right-bottom-er h4 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #4b4b4b;
+}
+
+.carousel-right-bottom .carousel-right-bottom-er h4 span {
+  color: #ed5d3c;
+}
+
 /* 3 电影 movie */
 .movie {
-  height: 344px;
+  height: 384px;
   background-color: cadetblue;
+}
+
+.movie .movie-title {
+  height: 44px;
+  width: 100%;
+  background-color: #fb3f5d;
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
+
+.movie .movie-title .movie-title-left {
+  float: left;
+}
+
+.movie .movie-title .movie-title-left h3 {
+  float: left;
+  font-size: 18px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.movie .movie-title .movie-title-left h3 a {
+  color: #fef3ff;
+}
+
+.movie .movie-title .movie-title-left h4 {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.movie .movie-title .movie-title-left h4 a {
+  color: #fef3ff;
+}
+
+.movie .movie-title .movie-title-left h4 i {
+  position: absolute;
+  top: 26px;
+  left: 20px;
+  display: inline-block;
+  height: 0px;
+  width: 2px;
+  border-bottom: 9px solid #ffffff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid transparent;
+}
+
+.movie .movie-title .movie-title-right {
+  float: right;
+  margin-right: 22px;
+  line-height: 44px;
+}
+
+.movie .movie-title .movie-title-right a {
+  font-size: 16px;
+  color: #ffedec;
+}
+
+.movie .movie-bottom {
+  height: 300px;
+  width: 100%;
+  background-color: blanchedalmond;
+  overflow: hidden;
+}
+
+.movie .movie-bottom-ul {
+  height: 300px;
+  width: 2430px;
+}
+
+.movie .movie-bottom-ul li {
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.movie .movie-bottom-ul li .movie-bottom-ul-ming {
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+}
+
+.movie .movie-bottom-ul li .movie-bottom-ul-ming h3 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+.movie .movie-bottom-ul li .movie-bottom-ul-ming h3 span {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 19px;
+  color: #ef9827;
+}
+
+.movie .movie-bottom-ul li .movie-bottom-ul-ming h2 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
 }
 
 /* 4 民宿 homestay */
 .homestay {
-  height: 696px;
-  background-color: coral;
+  height: 772px;
+}
+
+.homestay .homestay-title {
+  height: 44px;
+  width: 100%;
+  background-color: #f3bf47;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.homestay .homestay-title .homestay-title-left {
+  float: left;
+}
+
+.homestay .homestay-title .homestay-title-left h3 {
+  float: left;
+  font-size: 18px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.homestay .homestay-title .homestay-title-left h3 a {
+  color: #fef3ff;
+}
+
+.homestay .homestay-title .homestay-title-left h4 {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.homestay .homestay-title .homestay-title-left h4 a {
+  color: #fef3ff;
+}
+
+.homestay .homestay-title .homestay-title-right {
+  float: right;
+  margin-right: 22px;
+  line-height: 44px;
+}
+
+.homestay .homestay-title .homestay-title-right a {
+  font-size: 16px;
+  color: #ffedec;
+}
+
+.homestay .homestay-bottom {
+  position: relative;
+  height: 693px;
+  width: 100%;
+  padding-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.homestay .homestay-bottom ul {
+  position: absolute;
+  height: 690px;
+  width: 100%;
+}
+
+.homestay .homestay-bottom li {
+  position: relative;
+  float: left;
+  height: 336px;
+  width: 370px;
+  margin-left: 20px;
+  background-color: #ffffff;
+}
+
+.homestay .homestay-bottom .homestay-bottom-img {
+  height: 208px;
+  width: 370px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.homestay .homestay-bottom .homestay-bottom-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.homestay .homestay-bottom h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #222222;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  width: 288px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.homestay .homestay-bottom h4 {
+  font-size: 12px;
+  color: #999999;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.homestay .homestay-bottom h5 {
+  font-size: 18px;
+  color: #ff6600;
+}
+
+.homestay .homestay-bottom h5 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.homestay .homestay-bottom .homestay-bottom-tou {
+  position: absolute;
+  top: 183px;
+  left: 305px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.homestay .homestay-bottom .homestay-bottom-tou img {
+  height: 100%;
+  width: 100%;
 }
 
 /* 5 猜你喜欢 like */
 .like {
-  height: 760px;
-  background-color: crimson;
+  height: 844px;
+  background-color: darkcyan;
+}
+
+.like .like-title {
+  height: 44px;
+  width: 100%;
+  background-color: #4ab9d3;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.like .like-title .like-title-left {
+  float: left;
+}
+
+.like .like-title .like-title-left h3 {
+  float: left;
+  font-size: 18px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.like .like-title .like-title-left h3 a {
+  color: #fef3ff;
+}
+
+.like .like-title .like-title-left h4 {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  /* font-weight: 600; */
+  font-weight: normal;
+  margin-left: 18px;
+  line-height: 44px;
+}
+
+.like .like-title .like-title-left h4 a {
+  color: #fef3ff;
+}
+
+.like .like-title .like-title-left h4 i {
+  position: absolute;
+  top: 26px;
+  left: 48px;
+  display: inline-block;
+  height: 0px;
+  width: 2px;
+  border-bottom: 9px solid #ffffff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid transparent;
 }
 
 /* 6 导航 nav */
