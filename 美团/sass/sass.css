@@ -93,6 +93,7 @@ body {
   display: none;
   position: absolute;
   left: 0;
+  z-index: 2;
 }
 
 .head-top-right-wo > li {
@@ -253,9 +254,22 @@ body {
 /* 2 轮播部分 carousel */
 .carousel {
   height: 468px;
+  /* 2 轮播部分 carousel li里面的盒子 */
+  /* .carousel-left-box {
+    position: absolute;
+    top: 202px;
+    left: 587px;
+    height: 414px;
+    width: 400px;
+    background-color: #ffffff;
+    padding-left: 32px;
+    padding-right: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  } */
 }
 
-.carousel-left {
+.carousel .carousel-left {
   float: left;
   position: relative;
   width: 230px;
@@ -269,32 +283,32 @@ body {
   box-sizing: border-box;
 }
 
-.carousel-left li {
+.carousel .carousel-left li {
   position: relative;
   height: 26px;
 }
 
-.carousel-left li i {
-  display: inline-block;
+.carousel .carousel-left li i {
+  float: left;
   height: 16px;
   width: 16px;
-  background-color: red;
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 5px;
 }
 
-.carousel-left li span {
+.carousel .carousel-left li span {
   display: inline-block;
+  margin-top: 5px;
 }
 
-.carousel-left li .carousel-left-li-a {
+.carousel .carousel-left li .carousel-left-li-a {
   float: left;
   font-size: 14px;
   color: #646464;
 }
 
-.carousel-left li .xia {
+.carousel .carousel-left li .xia {
   position: absolute;
   top: 12px;
   right: 14px;
@@ -305,7 +319,7 @@ body {
   transform: rotate(45deg);
 }
 
-.carousel-left li .shang {
+.carousel .carousel-left li .shang {
   position: absolute;
   top: 8px;
   right: 14px;
@@ -316,18 +330,18 @@ body {
   transform: rotate(135deg);
 }
 
-.carousel-left > li:hover {
+.carousel .carousel-left > li:hover {
   background-color: #fff7eb;
 }
 
-.carousel-left > li:hover .carousel-left-li-a {
+.carousel .carousel-left > li:hover .carousel-left-li-a {
   font-weight: 600;
   color: #222222;
 }
 
-/* 2 轮播部分 carousel li里面的盒子 */
-.carousel-left-AllBox {
+.carousel .carousel-left-AllBox {
   position: absolute;
+  z-index: 6;
   top: 202px;
   left: 587px;
   height: 414px;
@@ -339,59 +353,47 @@ body {
   box-sizing: border-box;
 }
 
-/* .carousel-left-box {
-  position: absolute;
-  top: 202px;
-  left: 587px;
-  height: 414px;
-  width: 400px;
-  background-color: #ffffff;
-  padding-left: 32px;
-  padding-right: 32px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-.carousel-left-box-title {
+.carousel .carousel-left-box-title {
   height: 55px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.carousel-left-box-title-left {
+.carousel .carousel-left-box-title-left {
   float: left;
   /* line-height: 54px; */
   margin-top: 25px;
 }
 
-.carousel-left-box-title-left a {
+.carousel .carousel-left-box-title-left a {
   font-size: 16px;
   color: #222222;
 }
 
-.carousel-left-box-title-more {
+.carousel .carousel-left-box-title-more {
   float: right;
   line-height: 55px;
 }
 
-.carousel-left-box-title-more a {
+.carousel .carousel-left-box-title-more a {
   color: #999999;
   font-size: 14px;
 }
 
-.carousel-left-box-body span {
+.carousel .carousel-left-box-body span {
   display: inline-block;
   margin-top: 10px;
   margin-right: 12px;
 }
 
-.carousel-left-box-body span a {
+.carousel .carousel-left-box-body span a {
   color: #999999;
 }
 
-.carousel-left-box-body span a:hover {
+.carousel .carousel-left-box-body span a:hover {
   color: #fe8c00;
 }
 
-.carousel-left-AllBox {
+.carousel .carousel-left-AllBox {
   display: none;
 }
 
@@ -861,7 +863,6 @@ body {
 /* 5 猜你喜欢 like */
 .like {
   height: 844px;
-  background-color: darkcyan;
 }
 
 .like .like-title {
@@ -915,21 +916,318 @@ body {
   border-top: 9px solid transparent;
 }
 
+.like .like-bottom-ul-li {
+  float: left;
+  height: 246px;
+  width: 238px;
+  background-color: #ffffff;
+  padding-left: 12px;
+  padding-top: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.like .like-bottom-ul-li h2 {
+  width: 210px;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.like .like-bottom-ul-li:hover {
+  background-color: #f4f4f4;
+}
+
+.like .like-bottom-img {
+  height: 120px;
+  width: 214px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.like .like-bottom-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.like p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.like h3 {
+  font-size: 14px;
+  color: #ff6600;
+}
+
+.like h3 span {
+  font-size: 23px;
+  color: #ff6600;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-weight: normal;
+}
+
+.like .like-bottom-ping {
+  height: 15px;
+}
+
+.like .like-bottom-ping li {
+  float: left;
+  margin-right: 2px;
+}
+
+.like .like-bottom-ping span {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 3px;
+  color: #a599b2;
+}
+
 /* 6 导航 nav */
 .nav {
-  height: 280px;
-  background-color: aquamarine;
+  height: 312px;
+}
+
+.nav .nav-box {
+  height: 270px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.nav .nav-title {
+  height: 54px;
+  line-height: 56px;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.nav .nav-title span {
+  color: #222222;
+  font-size: 16px;
+}
+
+.nav .nav-body {
+  height: 216px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.nav .nav-body-li {
+  height: 72px;
+  width: 100%;
+}
+
+.nav .nav-body-li-left {
+  float: left;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  padding-top: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav .nav-body-li-left span {
+  color: #222222;
+  font-size: 14px;
+}
+
+.nav .nav-body-li-right {
+  float: right;
+  width: 1090px;
+  height: 100%;
+}
+
+.nav .nav-body-li-right li {
+  height: 16px;
+  margin-top: 12px;
+  width: 102px;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav .nav-body-li-right li span {
+  color: #666666;
+}
+
+.nav .nav-body-li-right li span:hover {
+  color: #fe8c00;
+}
+
+.nav .nav-body-li-right-border {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 /* 7 用户帮助 help  */
-.heip {
-  height: 483px;
-  background-color: burlywood;
+.help {
+  height: 540px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.help .help-box {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 100%;
+  height: 495px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.help .help-div {
+  float: left;
+  height: 460px;
+  width: 218px;
+}
+
+.help .help-div dl:nth-child(2),
+.help .help-div dl:nth-child(3),
+.help .help-div dl:nth-child(4),
+.help .help-div dl:nth-child(5) {
+  margin-top: 20px;
+}
+
+.help .help-div dt {
+  height: 28px;
+  width: 100%;
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+}
+
+.help .help-div dd {
+  height: 24px;
+  width: 100px;
+  line-height: 24px;
+}
+
+.help .help-div dd a {
+  color: #666666;
+}
+
+.help .help-div dd a:hover {
+  color: #fe8c00;
+}
+
+.help .help-div p {
+  margin-top: 32px;
+}
+
+.help .help-div p a {
+  color: #666666;
+  font-size: 14px;
 }
 
 /* 8 底部 foot */
 .foot {
-  height: 111px;
-  background-color: brown;
+  height: 122px;
+  padding-left: 15px;
+  padding-top: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.foot .foot-left {
+  float: left;
+  width: 580px;
+  height: 100%;
+}
+
+.foot .foot-left p {
+  margin-bottom: 5px;
+}
+
+.foot .foot-left p span {
+  color: #bcbcbc;
+}
+
+.foot .foot-left a {
+  color: #bcbcbc;
+}
+
+.foot .foot-right {
+  float: right;
+  width: 530px;
+  height: 100%;
+}
+
+.foot .foot-right .foot-right-top {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+
+.foot .foot-right p {
+  font-size: 12px;
+  float: right;
+  display: block;
+}
+
+.foot .foot-right p a {
+  color: #999999;
+}
+
+.foot .foot-right .foot-right-xiao {
+  float: right;
+  height: 38px;
+  width: 110px;
+  background-image: url(../images/index/footer.png);
+  background-position: 0px -39px;
+  background-repeat: no-repeat;
+}
+
+.foot .foot-right .foot-right-ke {
+  float: right;
+  height: 38px;
+  width: 106px;
+  background-image: url(../images/index/footer.png);
+  background-position: 0px -126px;
+  background-repeat: no-repeat;
+}
+
+.foot .foot-right .foot-right-jing {
+  float: right;
+  height: 38px;
+  width: 106px;
+  background-image: url(../images/index/footer.png);
+  background-position: 0px -166px;
+  background-repeat: no-repeat;
+}
+
+.foot .foot-right .foot-right-bei {
+  float: right;
+  height: 38px;
+  width: 170px;
+}
+
+.foot .foot-right .foot-right-bei img {
+  height: 38px;
+  width: 38px;
+}
+
+.foot .foot-right .foot-right-bei p {
+  line-height: 38px;
+  margin-right: 5px;
+  color: #999999;
+}
+
+.foot .foot-right .foot-right-bei:hover p {
+  color: #fe8c00;
+}
+
+.foot a:hover {
+  color: #fe8c00;
 }
 /*# sourceMappingURL=sass.css.map */

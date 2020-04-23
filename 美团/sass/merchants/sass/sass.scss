@@ -1,0 +1,45 @@
+// 版心
+.container{
+  width: 1014px;
+  margin: 0 auto;
+}
+// 1 导航 nav
+.nav{
+  height: 56px;
+  width: 100%;
+  background-color: #3dc6b6;
+  line-height: 56px;
+  h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    span{
+      font-weight: normal;
+    }
+  }
+}
+
+// 2 选择 choose 
+.choose{
+  height: 572px;
+  width: 100%;
+  background-color: #f7f7f7;
+  // 标语
+  .choose-please{
+    height: 214px;
+    width: 100%;
+    // background-color: red;
+    line-height:  214px;
+    text-align: center;
+    p{
+      font-size: 34px;
+      color: #666666;
+    }
+  }
+  // 行业选择
+  .choose-hang{
+    height: 260px;
+    width: 100%;
+    background-color: #c8c3fa;   //yy
+  }
+}
