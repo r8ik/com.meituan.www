@@ -1,0 +1,120 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  height: 1350px;
+  width: 100%;
+  background-color: darkturquoise;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro .intro-head {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+}
+
+.intro .intro-hea-left {
+  float: left;
+  height: 33px;
+  width: 86px;
+}
+
+.intro .intro-hea-left img {
+  height: 100%;
+  width: 100%;
+}
+
+.intro .intro-hea-right {
+  float: right;
+}
+
+.intro .intro-hea-right > div {
+  float: left;
+}
+
+.intro .intro-hea-right a:hover {
+  color: #ffc300;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan {
+  float: left;
+  position: relative;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan > a {
+  font-size: 14px;
+  color: #d4d5d6;
+  margin-left: 36px;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div {
+  position: absolute;
+  height: 306px;
+  width: 298px;
+  background-color: rgba(1, 20, 33, 0.5);
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul {
+  height: 100%;
+  width: 136px;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li {
+  position: relative;
+  text-align: center;
+  height: 52px;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  color: #d4d5d6;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li a:hover {
+  color: #ffc300;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li dl {
+  height: 306px;
+  width: 162px;
+  position: absolute;
+  top: 0;
+  left: 136px;
+  background-color: rgba(1, 20, 33, 0.5);
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li dl a:hover {
+  color: #ffc300;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li .intro-hea-right-dl-guan {
+  top: -52px;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li .intro-hea-right-dl-lian {
+  top: -104px;
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li:hover {
+  background-color: rgba(10, 28, 43, 0.5);
+}
+
+.intro .intro-hea-right .intro-hea-right-chan-div ul li:hover dl {
+  background-color: rgba(10, 28, 43, 0.5);
+}
+
+.intro .intro-hea-right .intro-hea-right-chan:hover .intro-hea-right-chan-div {
+  display: block;
+}
+
+.current {
+  display: block;
+}
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,117 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+// 1 介绍 intro
+.intro{
+   height: 1350px;
+   width: 100%;
+   background-color: darkturquoise;
+   background-repeat: no-repeat;
+   background-size: cover;
+  //头
+   .intro-head{
+     height: 60px;
+     width: 100%;
+     line-height: 60px;
+
+   }
+  //  头 左
+   .intro-hea-left{
+     float: left;
+     height: 33px;
+     width: 86px;
+     img{
+       height: 100%;
+       width: 100%;
+     }
+   }
+    // 头右
+   .intro-hea-right{
+     float: right;
+    //  height: 1005px;
+     &>div{
+       float: left;
+     }
+
+     a:hover{
+       color: #ffc300;
+     }
+     .intro-hea-right-chan{
+      float: left;
+      position: relative;
+      &>a{
+        font-size: 14px;
+        color: #d4d5d6;
+        margin-left: 36px;
+      }
+     }
+     .intro-hea-right-chan-div{
+       position: absolute;
+       height: 306px;
+       width: 298px;
+       background-color: rgba(#011421, 0.5);
+      // background-color: red;
+      // display: none;
+      ul{
+        height: 100%;
+        width: 136px;
+        // background-color: honeydew;
+        li{
+          position: relative;
+          text-align: center;
+          height: 52px;
+          a{
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+            color: #d4d5d6; 
+          }
+          a:hover{
+            color: #ffc300;
+          }
+          dl{
+            height: 306px;
+            width: 162px;
+            position: absolute;
+            top: 0;
+            left: 136px;
+            // background-color: rgba(#0a1c2b, 0.5);
+            background-color: rgba(#011421, 0.5);
+            //  background-color: darkturquoise;
+            a:hover{
+                color: #ffc300;
+            }
+          }
+          .intro-hea-right-dl-guan{
+            top: -52px; 
+          }
+          .intro-hea-right-dl-lian{
+            top: -104px;
+          }
+        }
+        li:hover{
+         background-color: rgba(#0a1c2b, 0.5);
+         dl{
+          background-color: rgba(#0a1c2b, 0.5);
+
+         }
+        }
+      }
+     }
+     .intro-hea-right-chan:hover .intro-hea-right-chan-div{
+      display: block;
+     }
+
+    // 餐饮学院
+    .intro-hea-right-can{
+
+    }
+   }
+}
+
+// 显示
+.current{
+  display: block;
+}
