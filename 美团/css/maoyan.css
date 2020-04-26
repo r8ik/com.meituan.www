@@ -1,0 +1,84 @@
+/* 1 头部 */
+.hd h2{
+   background-image: url(../images/maoyan/hd-bg.png);
+   background-position: -20px -20px;
+  background-repeat: no-repeat;
+
+}
+.hd .ticket{
+  background-image: url(../images/maoyan/hd-bg.png);
+  background-position: -777px -20px;
+  background-repeat: no-repeat;
+
+}
+.hd .weibo{
+  background-image: url(../images/maoyan/hd-bg.png);
+  background-repeat: no-repeat;
+  background-position:-913px -20px;
+  
+}
+.hd .ticket:hover{
+  background-position: -777px -60px;
+}
+.hd .weibo:hover{
+  background-position:-913px -60px;
+  
+}
+/* 2 下载 down */
+.down{
+  background-image: url(../images/maoyan/down-bg.png)
+}
+.down .left{
+  background-image: url(../images/maoyan/down-left.png);
+  background-repeat: no-repeat; 
+}
+
+.down h2{
+  background-image:  url(../images/maoyan/hd-bg.png);
+  background-repeat: no-repeat; 
+  background-position:-239px -15px ;
+}
+.down .iphone{
+  background-image:  url(../images/maoyan/download.png);
+  background-repeat: no-repeat; 
+  background-position: 0 0px ;
+}
+.down .andriod{
+  background-image:  url(../images/maoyan/download.png);
+  background-repeat: no-repeat; 
+  background-position: -235px 0px ;
+}
+.down .iphone:hover{
+  background-position: 0px -87px;
+}
+.down .andriod:hover{
+  background-position: -235px -87px ;
+}
+.down .er{
+  background-image:  url(../images/maoyan/hd-bg.png);
+  background-repeat: no-repeat; 
+  background-position: -530px -172px;
+}
+/* 3 介绍 intro */
+ .intro-re{
+  background-image: url(../images/maoyan/intro-re.jpg);
+  background-repeat: no-repeat;
+  background-position: 472px 52px;
+}
+
+.intro-zai{
+  background-image: url(../images/maoyan/intro-zai.jpg);
+  background-repeat: no-repeat;
+  background-position: 472px 52px;
+}
+.intro-hai{
+  background-image: url(../images/maoyan/intro-hai.jpg);
+  background-repeat: no-repeat;
+  background-position: 8px 52px;
+}
+
+.intro-zi{
+  background-image: url(../images/maoyan/intro-zi.jpg);
+  background-repeat: no-repeat;
+  background-position: 8px 52px;
+}
