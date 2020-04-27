@@ -1,0 +1,147 @@
+.head {
+  position: relative;
+  height: 944px;
+  width: 100%;
+}
+
+.head .head-div {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 310px;
+  height: 268px;
+  width: 100%;
+}
+
+.head .logo {
+  height: 200px;
+  width: 50%;
+  text-align: center;
+}
+
+.head .logo img {
+  height: 200px;
+  width: 192px;
+}
+
+.head .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 200px;
+  margin-top: 36px;
+}
+
+.head .down > div {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.head .down a {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #282626;
+}
+
+.content {
+  height: 900px;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content .content-top {
+  height: 148px;
+  width: 100%;
+  text-align: center;
+}
+
+.content .content-top img {
+  height: 100%;
+  width: auto;
+}
+
+.content h2 {
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.content h2 span {
+  display: inline-block;
+  background-color: #fecd0f;
+  height: 26px;
+  width: 98px;
+}
+
+.content .content-intro {
+  margin-top: 40px;
+}
+
+.content .content-intro li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.content .content-intro li:last-child {
+  color: #000000;
+}
+
+.content .content-earth {
+  margin-top: 85px;
+  text-align: center;
+}
+
+.content .content-rel {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.content .content-rel li {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.content .content-rel li img {
+  height: 40px;
+  width: auto;
+}
+
+.content .content-rel li span {
+  font-size: 16px;
+}
+
+.content .content-rel li span a {
+  color: #222222;
+}
+
+.bottom {
+  height: 60px;
+  background-color: #fecd0f;
+  text-align: center;
+  line-height: 60px;
+}
+
+.bottom a {
+  color: #222222;
+  font-size: 16px;
+}
+
+.bottom img {
+  height: 24px;
+  width: auto;
+}
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,15 @@
+.container{
+  width: 1190px;
+  margin: 0 auto;
+}
+// 1 导航 nav
+.nav{
+  height: 35px;
+  width: 100%;
+  background-color: #f6f6f6;
+  .nav-left{
+    float: left;
+    width: 106px;
+    height: 100%;
+  }
+}

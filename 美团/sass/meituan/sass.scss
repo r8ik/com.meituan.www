@@ -1,0 +1,268 @@
+.head{
+  height: 70px;
+  width: 100%;
+  .head-content{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .head-left{
+    float: left;
+    height: 48px;
+    width: 162px;
+    line-height: 70px;
+    img{
+      height: 48px;
+      width: auto;
+    }
+  }
+  .head-right{
+    float: right;
+    width: 592px;
+    height: 100%;
+   ul{
+     height: 100%;
+     display: flex;
+     li{
+      width: 33.3333%;
+      text-align: center;
+      a{
+        display: inline-block;
+        height: 100%;
+        font-size: 16px;
+        line-height: 70px;
+        color: #333333;
+        border-bottom: 3px solid #ffbd27;
+      }
+     }
+   }
+  }
+  .active{
+    color: #333333;
+    font-weight: 600;
+  }
+}
+
+// 2 内容 content
+.content{
+  height:1300px;
+  background-color: #fff;
+  border-bottom: 2px solid #ffd705;
+  .container{
+    width: 1440px;
+    margin: 0 auto;
+
+  }
+  .content-top{
+    position: relative;
+    height: 640px;
+  }
+  // 返回首页
+  .home{
+    position: absolute;
+    top: 45px;
+    left: 270px;
+    height: 30px;
+    width: 110px;
+    padding-left: 30px;
+    color: #333333;
+    font-size: 16px;
+    padding-top: 3px;
+  }
+  .logo{
+    position: absolute;
+    top: 199px;
+    left: 818px;
+    height: 100px;
+    width: 330px;
+    // background-color: rgba(0, 0, 0, 0.5);
+  }
+  .iphone{
+    position: absolute;
+    right: 440px;
+    top: 334px;
+    width: 185px;
+    height: 45px;
+    line-height: 30px;
+    // padding: 10px 0;
+    border: 2px solid #333;
+    /* right: 210px; */
+    color: #333;
+    /* display: block; */
+    font-size: 16px;
+    i{
+      float: left;
+      height: 28px;
+      margin-left: 13px;
+      width: 18px;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+    span{
+       line-height: 50px;
+    }
+  }
+  .android{
+    position: absolute;
+    right: 440px;
+    top: 400px;
+    width: 185px;
+    height: 45px;
+    line-height: 30px;
+    // padding: 10px 0;
+    border: 2px solid #333;
+    /* right: 210px; */
+    color: #333;
+    /* display: block; */
+    font-size: 16px;
+    i{
+      float: left;
+      height: 28px;
+      margin-left: 13px;
+      width: 25px;
+      margin-top: 10px;
+      margin-right: 15px;
+    }
+    span{
+       line-height: 50px;
+    }
+  }
+  .iphone:hover,
+  .android:hover{
+    background-color: #333333;
+    color: #ffd705
+  }
+  .content-top-img{
+    position: absolute;
+    right: 300px;
+    top: 335px;
+    height: 114px;
+    width: 114px;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .content-bottom{
+    height: 640px;
+    width: 100%;
+  }
+}
+
+// 3 底 foot
+.foot{
+  height: 285px;
+  width: 100%;
+  background-color: #333333;
+  border-bottom: 1px solid #666666;
+  .foot-top{
+   width: 920px;
+   height: 287px;
+   margin: 0 auto;
+  //  background-color: teal;
+   overflow: hidden;
+  }
+  .left{
+    float: left;
+    margin-top: 70px;
+    width: 280px;
+    height: 173px;
+    ul{
+      float: left;
+      margin-right: 60px;
+      li{
+        margin-bottom: 20px;
+        a{
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .middle{
+    margin-top: 66px;
+    float: left;
+    margin-left: 152px;
+    h2{
+      font-size: 22px;
+      color: #eeeeee;
+      font-weight: normal;
+      margin-bottom: 16px;
+    }
+    .middle-ke{
+      margin-top: 32px;
+    }
+    p{
+      font-size: 14px;
+      color: #aaaaaa;
+    }
+    .middle-p{
+      margin-top: 10px;
+      
+    }
+  }
+  .right{
+    float: right;
+    margin-top: 70px;
+    height: 160px;
+    width: 220px;
+    // background-color: rosybrown;
+    h2{
+      font-size: 22px;
+      color: #eeeeee;
+      font-weight: normal;
+      margin-bottom: 18px;
+    }
+    .right-left{
+      float: left;
+      height: 90px;
+      width: 90px;
+      margin-right: 15px;
+    }
+    .right-right{
+      float: left;
+      height: 90px;
+      width: 90px;
+    }
+  }
+}
+
+// 4 底 footer 
+.footer{
+  height: 70px;
+  width: 100%;
+  background-color: #333333;
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  .container{
+    width: 580px;
+    margin:0 auto;
+  }
+  i{
+   float: left;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+  }
+  a{
+      color: #888888;
+  }
+  .footer-left{
+    float: left;
+    line-height: 21px;
+    margin-right: 15px;
+  }
+  span{
+    float: left;
+    color: #888888;
+    line-height: 21px;
+    margin-right: 15px;
+
+  }
+  .footer-right{
+    float: left;
+    line-height: 21px;
+
+  }
+}

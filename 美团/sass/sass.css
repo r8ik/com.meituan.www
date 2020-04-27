@@ -1059,7 +1059,12 @@ body {
 }
 
 .nav .nav-body-li-right li span {
+  display: inline-block;
   color: #666666;
+  width: 74px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .nav .nav-body-li-right li span:hover {
@@ -1109,7 +1114,7 @@ body {
 
 .help .help-div dd {
   height: 24px;
-  width: 100px;
+  width: 100%;
   line-height: 24px;
 }
 

@@ -1,0 +1,17 @@
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 35px;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.nav .nav-left {
+  float: left;
+  width: 106px;
+  height: 100%;
+}
+/*# sourceMappingURL=sass.css.map */

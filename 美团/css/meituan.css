@@ -1,0 +1,52 @@
+.content-top{
+  background-image: url(../images/meituan/content-top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 返回首页 */
+.home{
+  background: url(../images/meituan/home.png) no-repeat;
+
+}
+.iphone i{
+  background-image: url(../images/meituan/phone.png);
+  background-repeat: no-repeat;
+}
+.android i{
+  background-image: url(../images/meituan/phone.png);
+    background-repeat: no-repeat;
+    background-position: 0px -33px;
+}
+.iphone:hover i{
+  background-position: -26px 0px;
+}
+.android:hover i{
+    background-position:-26px  -33px;
+
+}
+
+.content-bottom{
+  background-image: url(../images/meituan/content-bottom.png);
+  background-repeat: no-repeat; 
+}
+.right-left{
+  background-image: url(../images/meituan/right-left.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.right-right{
+  background-image: url(../images/meituan/right-right.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+.footer-right i{
+  background-image: url(../images/meituan/footer-right.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.footer-left i{
+  background-image: url(../images/meituan/footer-left.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}

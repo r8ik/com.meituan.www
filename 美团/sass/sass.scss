@@ -1058,7 +1058,12 @@ border-radius: 0px 0px 5px 5px;
       white-space: nowrap;
       text-overflow: ellipsis;
       span{
+        display: inline-block;
         color: #666666;
+        width: 74px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
       span:hover{
         color: #fe8c00;
@@ -1107,7 +1112,7 @@ border-radius: 0px 0px 5px 5px;
     }
     dd{
       height: 24px;
-      width: 100px;
+      width: 100%;
       line-height: 24px;
       // background-color: steelblue;
       a{
