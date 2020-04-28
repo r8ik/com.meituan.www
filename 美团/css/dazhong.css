@@ -1,0 +1,39 @@
+.nav-icon{
+  background-image: url(../images/dazhong/nav-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 37px auto;
+}
+
+.nav-right i{
+  background-image: url(../images/dazhong/nav-right-i.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 10px auto;
+}
+/* 头  */
+.head-top-left{
+  background-image: url(../images/dazhong/head-top-left.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 210px auto;
+}
+.head-top-right-i{
+  background-image: url(../images/dazhong/head-top-right-i.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 16px auto;
+}
+
+.head-bottom-left-i{
+  background-image: url(../images/dazhong/head-bottom-left-i.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 16px auto;
+}
+.head-bottom-right-hot-i{
+  background-image: url(../images/dazhong/head-bottom-right-hot.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 20px auto;
+}

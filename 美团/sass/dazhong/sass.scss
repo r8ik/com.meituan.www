@@ -7,9 +7,505 @@
   height: 35px;
   width: 100%;
   background-color: #f6f6f6;
+  // 导航左边
   .nav-left{
+    position: relative;
     float: left;
     width: 106px;
-    height: 100%;
+    height: 35px;
+    // line-height: 40px;
+    cursor: pointer;
+    border-left: 1px solid #f6f6f6;
+    border-right: 1px solid #f6f6f6;
+    // 标
+    .nav-icon{
+      float: left;
+      /* display: inline-block; */
+      width: 30px;
+      height: 30px;
+    }
+    .nav-city{
+      float: left;
+      margin-right: 5px;
+      margin-top: 14px;
+  
+    }
+    .nav-change{
+      float: left;
+      margin-top: 14px;
+    }
+  }
+  // 更换城市的小盒子
+  #nav-city{
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    height: 194px;
+    width: 196px;
+    border: 1px solid #e3e3e3;
+    background-color: #ffffff;
+  
+    .nei{
+      height: 106px;
+      width: 100%;
+      border-bottom: 1px solid #e3e3e3;
+      padding-top: 18px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      p{
+        font-weight: 600;
+        margin-left: 12px;
+        color: #999999;
+        margin-bottom: 5px;
+      }
+      a{
+        display: inline-block;
+        margin: 5px 10px;
+        color: #515151;
+      }
+      .nav-city-current{
+        color: #f65d29;
+      }
+      a:hover{
+        color: #f65d29;
+    
+      }
+    }
+    .wai{
+      padding-top: 18px;
+      p{
+        font-weight: 600;
+        margin-left: 12px;
+        color: #999999;
+        margin-bottom: 5px;
+      }
+      a{
+        display: inline-block;
+        margin: 5px 11px;
+        color: #515151;
+      }
+      a:hover{
+        color: #f65d29;
+    
+      }
+    }
+    .more{
+      a{
+        float: right;
+        margin-top: 5px;
+        margin-right: 17px;
+        color: #999999;
+      }
+    }
+   
+  }
+
+  // 导航右边
+   .nav-right{
+     float: right;
+     .nav-right-hi{
+      // display: inline-block;
+      float: left;
+      width: 155px;
+      margin-top: 13px;
+      .nav-right-hi-current{
+        color: #f65d29;
+         margin-left: 20px;
+      }
+      a:hover{
+        color: #f65d29;
+      }
+     }
+    a{
+      color: #333333;
+    }
+    .nav-right-div{
+      // display: inline-block;
+      float: left;
+      width: 95px;
+      text-align: center;
+      padding-top: 13px;
+      height: 35px;
+      box-sizing: border-box;
+
+      i{
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+      }
+          a:hover{
+            color: #f65d29;
+          }
+    }
+    .nav-right-fen{
+      float: left;
+      color: #cad5e5;
+      margin-top: 13px;
+
+    }
+  
+  
+  
+  
+  }
+   // 个人中心的小盒子
+    .nav-right-ge{
+      position: relative;
+      // .nav-right-ge{
+        // background-color: #fff;
+        // border-left: 1px solid #e1e1e1;
+        // border-right: 1px solid #e1e1e1;
+        // box-sizing: border-box;
+        .nav-right-ge-box{
+          display: none;
+          position: absolute;
+          top: 35px;
+          left: -1px;
+          height: 210px;
+          width: 95px;
+          background-color: #fff;
+          border-left: 1px solid #e1e1e1;
+          border-bottom: 1px solid #e1e1e1;
+          border-right: 1px solid #e1e1e1;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+            li{
+              // background-color: darkblue;
+              height: 30px;
+              width: 100%;
+              line-height: 30px;
+              a:hover{
+                color: #f65d29;
+              }
+            }
+            li:hover{
+              background-color: #f6f6f6;
+            }
+          }
+      }
+
+
+    // 商户服务小盒子
+    .nav-right-shang{
+      position: relative;
+      // .nav-right-shang{
+        // background-color: #fff;
+        // border-left: 1px solid #e1e1e1;
+        // border-right: 1px solid #e1e1e1;
+        // box-sizing: border-box;
+        .nav-right-shang-box{
+          display: none;
+          position: absolute;
+          top: 35px;
+          left: -1px;
+          height: 150px;
+          width: 124px;
+          background-color: #fff;
+          border-left: 1px solid #e1e1e1;
+          border-bottom: 1px solid #e1e1e1;
+          border-right: 1px solid #e1e1e1;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+            li{
+              // background-color: darkblue;
+              height: 30px;
+              width: 100%;
+              text-align: left;
+              line-height: 30px;
+              padding-left: 15px;
+              box-sizing: border-box;
+              a:hover{
+                color: #f65d29;
+              }
+            }
+            li:hover{
+              background-color: #f6f6f6;
+            }
+          }
+      }
+
+    // 帮助中心小盒子
+    .nav-right-bang{
+      position: relative;
+      // .nav-right-bang
+        // background-color: #fff;
+        // border-left: 1px solid #e1e1e1;
+        // border-right: 1px solid #e1e1e1;
+        // box-sizing: border-box;
+        .nav-right-bang-box{
+          display: none;
+          position: absolute;
+          top: 35px;
+          left: -1px;
+          height: 61px;
+          width: 95px;
+          background-color: #fff;
+          border-left: 1px solid #e1e1e1;
+          border-bottom: 1px solid #e1e1e1;
+          border-right: 1px solid #e1e1e1;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+            li{
+              // background-color: darkblue;
+              height: 30px;
+              width: 100%;
+              text-align: left;
+              line-height: 30px;
+              padding-left: 15px;
+              box-sizing: border-box;
+              a:hover{
+                color: #f65d29;
+              }
+            }
+            li:hover{
+              background-color: #f6f6f6;
+            }
+          }
+      }
+      // 鼠标移上去的效果
+      .nav-right-div-current{
+        background-color: #fff;
+        border-left: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1;
+        box-sizing: border-box;
+      }
+}
+
+// 2 头 head
+.head{
+  height: 130px;
+  width: 100%;
+  border-bottom: 2px solid #ff6633;
+  // background-color: tan;
+  .head-top{
+    height: 95px;
+    width: 100%;
+    // background-color: royalblue;
+  }
+  .head-top-left{
+    float: left;
+    height: 57px;
+    width: 210px;
+    // background-color: rgba($color: #000000, $alpha: 0.5)
+    margin-top: 20px;
+  }
+  .head-top-right{
+    float: left;
+    width: 520px;
+    height: 32px;
+    border: 2px solid #ff6633;
+    margin-top: 30px;
+    margin-left: 140px;
+    i{
+      float: left;
+      height: 20px;
+      width: 20px;
+      margin-top: 8px;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    input{
+      float: left;
+      margin-top: 10px;
+      border: none;
+      background-color: transparent;
+      width: 360px;
+    }
+    input::-webkit-input-placeholder{
+            color:#d6d6d6;
+        }
+    .head-top-right-sou{
+      float: right;
+      width: 120px;
+      height: 32px;
+      background-color: #ff6633;
+      color: #ffffff;
+      font-size: 16px;
+      padding-top: 8px;
+      padding-left: 40px;
+      box-sizing: border-box;
+    }
+  }
+  .head-bottom{
+    height: 35px;
+    width: 100%;
+    // background-color: rebeccapurple;
+  }
+  .head-bottom-left{
+    position: relative;
+    float: left;
+    height: 37px;
+    width: 210px;
+    background-color: #ff6b37;
+    &>span{
+      float: left;
+      font-size: 15px;
+      color: #ffffff;
+      margin-top: 10px;
+      font-weight: 600;
+      margin-left: 12px;
+    }
+  }
+  .head-bottom-left-i{
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .head-bottom-right{
+    display: flex;
+    float: left;
+    height: 35px;
+    width: 400px;
+    // background-color: rosybrown;
+    padding-top: 10px;
+    box-sizing: border-box;
+    span{
+      width: 33.33333%;
+      text-align: center;
+      a{
+        font-size: 15px;
+        font-weight: 600;
+        color: #333333;
+      }
+      a:hover{
+        color: #ff6633;
+      }
+    }
+    .head-bottom-right-hot{
+      position: relative;
+    }
+    .head-bottom-right-hot-i{
+      position: absolute;
+      top: -1px;
+      left: 92px;
+      width: 20px;
+      height: 15px;
+    }
+  }
+  // 全部分类下面的小盒子
+   .head-bottom-left-box{
+     display: none;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    height: 520px;
+    width: 210px;
+    background-color: #ffffff;
+    ul{
+      height: 520px;
+      width: 210px;
+      li{
+        position: relative;
+        height: 32px;
+        width: 100%;
+        // background-color: tan;
+        padding-top: 10px;
+        box-sizing: border-box;
+        a{
+          color: #666666;
+          margin-right: 8px;
+        }
+        a:hover{
+          color: #ff6633;
+        }
+        .fir{
+          font-size: 15px;
+          color: #333333;
+          margin-left: 16px;
+        }
+      }
+      li:hover{
+        background-color: #f8f8f8;
+      }
+    }
+   }
+  //  li下面的盒子
+  .head-bottom-li-box{
+    display: none;
+    position: absolute;
+    height: 520px;
+    width: 400px;
+    top: 0;
+    left: 210px;
+    background-color: #f8f8f8;
+    padding: 0 36px;
+    box-sizing: border-box;
+    .head-bottom-li-box-titlie{
+      margin-top: 26px;
+      border-bottom: 1px solid #eeeeee;
+      /* padding-bottom: 6px; */
+      height: 22px;
+      .li-box-titlie-cai{
+        float: left;
+        font-size: 14px;
+        color: #333333;
+      }
+      .li-box-titlie-more{
+        float: right;
+        font-size: 12px;
+        color: #333333;
+        margin-right: 10px;
+      }
+    }
+    .head-bottom-li-box-body{
+      width: 100%;
+      height: auto;
+  
+      a{
+        display: inline-block;
+      /* float: left; */
+      width: 99px;
+      margin-top: 15px;
+      }
+    }
+  }
+  // 给每个li下面的盒子修改top值
+  .head-bottom-li-box-xiu{
+    top: -32px;
+  }
+  .head-bottom-li-box-jie{
+    top: -62px;
+  }
+  .head-bottom-li-box-dian{
+    top: -94px;
+  }
+  .head-bottom-li-box-li{
+    top: -126px;
+  }
+  .head-bottom-li-box-jiu{
+    top: -158px;
+  }
+  .head-bottom-li-box-qin{
+    top: -190px;
+  }
+  .head-bottom-li-box-zhou{
+    top: -222px;
+  }
+  .head-bottom-li-box-yun{
+    top: -254px;
+  }
+  .head-bottom-li-box-gou{
+    top: -286px;
+  }
+  .head-bottom-li-box-jia{
+    top: -318px;
+  }
+  .head-bottom-li-box-xue{
+    top: -350px;
+  }
+  .head-bottom-li-box-sheng{
+    top: -382px;
+  }
+  .head-bottom-li-box-yi{
+    top: -414px;
+  }
+  .head-bottom-li-box-ai{
+    top: -446px;
+  }
+  .head-bottom-li-box-chong{
+    top: -478px;
   }
 }
