@@ -1,0 +1,27 @@
+.head-logo{
+  background-image: url(../images/denglu/head.png);
+  background-repeat: no-repeat;
+  background-position: -188px -808px;
+  /* background-size: cover; */
+}
+.center-right-title-right i{
+  background-image: url(../images/denglu/center-right-title-right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-pass i{
+  background-image: url(../images/denglu/head.png);
+  background-repeat: no-repeat;
+  background-position: -1250px -527px;
+  /* background-size: cover; */
+}
+.center-qq{
+  background-image: url(../images/denglu/head.png);
+  background-repeat: no-repeat;
+  background-position: -1250px -509px;
+}
+.center-wei{
+  background-image: url(../images/denglu/head.png);
+  background-repeat: no-repeat;
+  background-position: -1250px -599px;
+}

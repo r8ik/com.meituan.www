@@ -493,58 +493,169 @@
 }
 
 .head .head-bottom-li-box-jie {
-  top: -62px;
+  top: -64px;
 }
 
 .head .head-bottom-li-box-dian {
-  top: -94px;
+  top: -96px;
 }
 
 .head .head-bottom-li-box-li {
-  top: -126px;
+  top: -128px;
 }
 
 .head .head-bottom-li-box-jiu {
-  top: -158px;
+  top: -160px;
 }
 
 .head .head-bottom-li-box-qin {
-  top: -190px;
+  top: -192px;
 }
 
 .head .head-bottom-li-box-zhou {
-  top: -222px;
+  top: -224px;
 }
 
 .head .head-bottom-li-box-yun {
-  top: -254px;
+  top: -256px;
 }
 
 .head .head-bottom-li-box-gou {
-  top: -286px;
+  top: -288px;
 }
 
 .head .head-bottom-li-box-jia {
-  top: -318px;
+  top: -320px;
 }
 
 .head .head-bottom-li-box-xue {
-  top: -350px;
+  top: -352px;
 }
 
 .head .head-bottom-li-box-sheng {
-  top: -382px;
+  top: -384px;
 }
 
 .head .head-bottom-li-box-yi {
-  top: -414px;
+  top: -416px;
 }
 
 .head .head-bottom-li-box-ai {
-  top: -446px;
+  top: -448px;
 }
 
 .head .head-bottom-li-box-chong {
-  top: -478px;
+  top: -480px;
+}
+
+.center {
+  height: 624px;
+  width: 100%;
+}
+
+.center .center-left {
+  float: left;
+  width: 500px;
+  height: 624px;
+  padding-top: 130px;
+  padding-left: 75px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.center .center-left .center-ke {
+  height: 44px;
+  width: 269px;
+  margin-bottom: 30px;
+}
+
+.center .center-left .center-ling {
+  height: 124px;
+  width: 364px;
+  margin-bottom: 60px;
+}
+
+.center .center-left .center-left-bottom {
+  height: 118px;
+  width: 310px;
+}
+
+.center .center-left .center-left-bottom .center-er {
+  float: left;
+  height: 118px;
+  width: 118px;
+}
+
+.center .center-left .center-left-bottom .venter-p {
+  float: left;
+  margin-top: 74px;
+  margin-left: 10px;
+}
+
+.center .center-left .center-left-bottom .venter-p .center-p-sao {
+  color: #d8d4d2;
+}
+
+.center .center-left .center-left-bottom .venter-p .center-p-ling {
+  color: #d85b2f;
+  margin-top: 5px;
+}
+
+.center .center-left .center-left-bottom p {
+  font-size: 18px;
+}
+
+.foot {
+  height: 150px;
+  width: 100%;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.foot .container {
+  text-align: center;
+}
+
+.foot ul {
+  width: 695px;
+  height: 12px;
+  margin-top: 52px;
+  margin-left: 240px;
+}
+
+.foot ul li {
+  float: left;
+  text-align: center;
+}
+
+.foot ul li a {
+  color: #8c8c8c;
+  text-decoration: underline;
+  margin: 0 8px;
+}
+
+.foot ul li a:hover {
+  color: #ff6633;
+}
+
+.foot ul span {
+  float: left;
+  color: #ecebec;
+}
+
+.foot .foot-p {
+  height: 16px;
+  margin-top: 10px;
+  color: #8c99b6;
+}
+
+.foot .foot-p a {
+  color: #8c99b6;
+  text-decoration: underline;
+}
+
+.foot .foot-p a:hover {
+  color: #ff6633;
 }
 /*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,85 @@
+.nav {
+  height: 100px;
+  width: 100%;
+  background-color: #0a0a13;
+}
+
+.nav ul {
+  width: 620px;
+  height: 100px;
+  margin-left: 350px;
+}
+
+.nav ul li {
+  float: left;
+  width: 192px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.nav ul li a {
+  display: inline-block;
+  font-size: 27px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.nav ul li .nav-current {
+  color: #157edc;
+  border-bottom: 2px solid #157edc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.down {
+  position: relative;
+  height: 780px;
+  width: 100%;
+}
+
+.down a {
+  position: absolute;
+  top: 490px;
+  left: 116px;
+  display: inline-block;
+  height: 83px;
+  width: 257px;
+  border: 1px solid #ffffff;
+  background-color: #0e172e;
+  text-align: center;
+  line-height: 83px;
+  border-radius: 10px;
+}
+
+.down a span {
+  font-size: 27px;
+  color: #fff;
+}
+
+.solve {
+  height: 1653px;
+  width: 100%;
+}
+
+.value {
+  height: 705px;
+  width: 100%;
+}
+
+.more {
+  height: 800px;
+  width: 100%;
+}
+
+.pin {
+  height: 1177px;
+  width: 100%;
+}
+
+.bottom {
+  height: 320px;
+  width: 100%;
+  background-color: #212331;
+}
+/*# sourceMappingURL=sass.css.map */

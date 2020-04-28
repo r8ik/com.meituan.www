@@ -37,3 +37,17 @@
   background-position: 0px 0px;
   background-size: 20px auto;
 }
+
+/*  3 中间 center */
+.center{
+  background-image: url(../images/dazhong/center.png);
+  background-repeat: no-repeat;
+  /* background-position: 0px 0px; */
+  background-size: cover;
+}
+.center-er{
+  background-image: url(../images/dazhong/center-er.png);
+  background-repeat: no-repeat;
+  /* background-position: 0px 0px; */
+  background-size: 118px auto;
+}

@@ -1,0 +1,99 @@
+.container{
+ width: 1562px;
+ height: 100%;
+ margin: 0 auto;
+}
+
+// 1 导航 nav
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 100%;
+  background-color: antiquewhite;
+  .nav-left{
+    float: left;
+    height: 36px;
+    width: 137px;
+    margin-left: 170px;
+    margin-top: 18px;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .nav-right{
+   float: right;
+   height: 100%;
+   width: 200px;
+  //  background-color: saddlebrown;
+   line-height: 65px;
+   text-align: center;
+   border-left: 1px solid #eeeeee;
+   span{
+     font-size: 16px;
+     color: #666666;
+   }
+  }
+}
+
+// 2 主图 map 
+.map{
+  margin-top: 65px;
+  height: 405px;
+  width: 100%;
+  padding-left: 170px;
+  padding-top: 110px;
+  box-sizing: border-box;
+  .map-tool{
+    height: 52px;
+    width: 720px;
+    margin-left: -10px;
+    img{
+      height: 100%;
+      width: 100%;
+
+    }
+  }
+  h2{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #e6e6e6;
+    font-weight: normal;
+  }
+  p{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    span{
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }
+  .map-free{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 155px;
+    background-color: #31bcad;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #ffffff;
+    .map-free-i{
+      display: inline-block;
+      height: 7px;
+      width: 7px;
+      border-left: 1px solid #fff;
+      border-top: 1px solid #fff;
+      position: absolute;
+      top: 16px;
+      right: 30px;
+      transform: rotate(-134deg);
+    }
+  }
+}
+

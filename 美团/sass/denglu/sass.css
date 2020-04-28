@@ -1,0 +1,250 @@
+.container {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.head {
+  height: 126px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.head .head-logo {
+  height: 54px;
+  width: 82px;
+  margin-top: 40px;
+}
+
+.center {
+  height: 442px;
+  width: 100%;
+}
+
+.center .center-left {
+  float: left;
+  width: 480px;
+  height: 370px;
+}
+
+.center .center-left img {
+  height: 100%;
+  width: 100%;
+}
+
+.center .center-right {
+  float: right;
+  width: 270px;
+  height: 341px;
+  margin-right: 118px;
+}
+
+.center .center-right-title {
+  height: 80px;
+  width: 100%;
+  padding-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.center .center-right-title .center-right-title-left {
+  float: left;
+}
+
+.center .center-right-title .center-right-title-left span {
+  font-size: 14px;
+  color: #666666;
+}
+
+.center .center-right-title .center-right-title-right {
+  float: right;
+}
+
+.center .center-right-title .center-right-title-right span {
+  font-size: 12px;
+  color: #666666;
+}
+
+.center .center-right-title .center-right-title-right i {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+}
+
+.center .center-tel {
+  font-size: 14px;
+  height: 34px;
+  width: 100%;
+  border: 1px solid #aaaaaa;
+}
+
+.center .center-tel span {
+  float: left;
+  margin-top: 10px;
+  color: #646464;
+}
+
+.center .center-tel i {
+  float: left;
+  width: 5px;
+  height: 5px;
+  border-right: 1px solid #646464;
+  border-top: 1px solid #646464;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: 14px 4px;
+}
+
+.center .center-tel input {
+  float: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 9px;
+  margin-left: 4px;
+}
+
+.center .center-pass {
+  font-size: 14px;
+  height: 34px;
+  width: 100%;
+  border: 1px solid #aaaaaa;
+  margin-top: 15px;
+}
+
+.center .center-pass i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin: 8px 4px;
+}
+
+.center .center-pass input {
+  float: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 9px;
+  margin-left: 4px;
+}
+
+.center .center-for {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.center .center-for a {
+  float: right;
+  color: #fe8c00;
+}
+
+.center .center-login {
+  display: inline-block;
+  height: 34px;
+  width: 100%;
+  background-color: #ffc100;
+  border-radius: 3px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.center .center-login span {
+  font-size: 14px;
+  color: #222222;
+  font-weight: 600;
+}
+
+.center .center-no {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+}
+
+.center .center-no span {
+  font-size: 14px;
+  color: #666666;
+}
+
+.center .center-no a {
+  font-size: 13px;
+  color: #fe9a00;
+}
+
+.center .center-other {
+  height: 38px;
+  width: 100%;
+}
+
+.center .center-other i {
+  float: left;
+  width: 60px;
+  height: 1px;
+  background-color: #cccccc;
+  margin-top: 6px;
+}
+
+.center .center-other .center-other-right {
+  float: right;
+}
+
+.center .center-other span {
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.center .center-bottom {
+  height: 18px;
+  width: 100%;
+}
+
+.center .center-bottom a {
+  float: left;
+  height: 18px;
+  width: 18px;
+  margin-right: 20px;
+}
+
+.center .center-bottom .center-qq {
+  margin-left: 85px;
+}
+
+.about {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.about .container {
+  height: 100%;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+
+.about .container ul {
+  height: 100%;
+  width: 100%;
+}
+
+.about .container ul li {
+  float: left;
+}
+
+.about .container ul li a {
+  color: #999999;
+}
+
+.about .container ul span {
+  float: left;
+  color: #eeeeee;
+  margin: 0 15px;
+}
+
+.foot {
+  margin-top: 25px;
+  color: #b399a6;
+}
+/*# sourceMappingURL=sass.css.map */

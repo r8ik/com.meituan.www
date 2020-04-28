@@ -1,0 +1,108 @@
+.container {
+  width: 1562px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.nav .nav-left {
+  float: left;
+  height: 36px;
+  width: 137px;
+  margin-left: 170px;
+  margin-top: 18px;
+}
+
+.nav .nav-left img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav .nav-right {
+  float: right;
+  height: 100%;
+  width: 200px;
+  line-height: 65px;
+  text-align: center;
+  border-left: 1px solid #eeeeee;
+}
+
+.nav .nav-right span {
+  font-size: 16px;
+  color: #666666;
+}
+
+.map {
+  margin-top: 65px;
+  height: 405px;
+  width: 100%;
+  padding-left: 170px;
+  padding-top: 110px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.map .map-tool {
+  height: 52px;
+  width: 720px;
+  margin-left: -10px;
+}
+
+.map .map-tool img {
+  height: 100%;
+  width: 100%;
+}
+
+.map h2 {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #e6e6e6;
+  font-weight: normal;
+}
+
+.map p {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.map p span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.map .map-free {
+  position: relative;
+  display: inline-block;
+  height: 45px;
+  width: 155px;
+  background-color: #31bcad;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.map .map-free .map-free-i {
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  position: absolute;
+  top: 16px;
+  right: 30px;
+  -webkit-transform: rotate(-134deg);
+          transform: rotate(-134deg);
+}
+/*# sourceMappingURL=sass.css.map */
