@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #0a0a13;
+  z-index: 5;
+}
+
+.nav ul {
+  width: 620px;
+  height: 100px;
+  margin-left: 350px;
+}
+
+.nav ul li {
+  float: left;
+  width: 192px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.nav ul li a {
+  display: inline-block;
+  font-size: 27px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.nav ul li .nav-current {
+  color: #157edc;
+  border-bottom: 2px solid #157edc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,30 @@
+.nav{
+  background-image: url(../images/dianping/nav.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.down{
+  background-image: url(../images/dianping/down.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.solve{
+  background-image: url(../images/dianping/solve.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.value{
+  background-image: url(../images/dianping/value.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.more{
+  background-image: url(../images/dianping/more.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pin{
+  background-image: url(../images/dianping/pin.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
