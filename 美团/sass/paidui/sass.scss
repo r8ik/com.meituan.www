@@ -1,5 +1,5 @@
 .container{
- width: 1562px;
+ width: 1560px;
  height: 100%;
  margin: 0 auto;
 }
@@ -11,7 +11,8 @@
   left: 0;
   height: 65px;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: #fff;
+  z-index: 2;
   .nav-left{
     float: left;
     height: 36px;
@@ -97,3 +98,273 @@
   }
 }
 
+
+// .3 下载 down
+.down{
+  position: relative;
+   height: 150px;
+   width: 100%;
+   background-color: #f7f8fa;
+   i{
+     position: absolute;
+     left: 230px;
+     top: -16px;
+     height: 0;
+     width: 0;
+     border-top: 8px solid transparent;
+     border-bottom: 8px solid #f7f8fa;
+     border-left:10px solid transparent;
+     border-right:10px solid transparent;
+    }
+    ul{
+      width: 1562px;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: darkcyan;
+      li{
+        float: left;
+        margin-top: 25px;
+        margin-right: 113px;
+        // transition: all .2s ease-out;
+        div{
+          height: 100px;
+          width: 277px;
+          background-color: #ffffff;
+          padding-left: 85px;
+          box-sizing: border-box;
+          overflow: hidden;
+          h3{
+            font-size: 18px;
+            color: #111;
+            font-weight: normal;
+            margin-top: 20px;
+          }
+          p{
+            margin-top: 5px;
+            color: #999999;
+          }
+        }
+      }
+      .windows,
+      .android{
+        h3{
+          margin-top: 40px;
+
+        }
+      }
+      .windows div:hover{
+      background-color: #3276bc;
+      }
+    }
+}
+
+
+// 4 介绍 intro 
+.intro{
+  height: 800px;
+  width: 100%;
+  // background-color: tan;
+  .container{
+    // background-color: salmon;
+    overflow: hidden;
+    h2{
+      position: relative;
+      font-size: 32px;
+      font-weight: normal;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      padding-left: 660px;
+      box-sizing: border-box;
+    }
+    h2:before{
+      content: "";
+      display: block;
+      position: relative;
+      top: 62px;
+      left: 84px;
+      width: 60px;
+      height: 4px;
+      background: #06c1ae;
+      border-radius: 100px;
+    }
+    ul{
+      display: flex;
+      width: 100%;
+      height: 175px;
+      border: 1px solid #f0f0f0;
+      li{
+        width: 33.333%;
+        height: 50%;
+        // background-color: sandybrown;
+        margin-top: 48px;
+        text-align: center;
+        h4{
+          font-size: 28px;
+          color: #111111;
+          font-weight: normal;
+          margin: 2px auto;
+        }
+        p{
+          font-size: 20px;
+          color: #333333;
+        }
+      }
+      .intro-li{
+        border-right: 1px solid #e5e5e5;
+      }
+    }
+  }
+}
+
+
+//  5 经验 exp
+.exp{
+  height: 389px;
+  width: 100%;
+  // text-align: center;
+  .container{
+    overflow: hidden;
+  }
+  h2{
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 110px;
+    color: #ffffff;
+  }
+  .exp-box{
+    height: 190px;
+    width: 100%;
+    // background-color: darkgoldenrod;
+    padding-top: 75px;
+    box-sizing: border-box;
+    .exp-box-xiao{
+      float: left;
+      width: 758px;
+      height: 80px;
+      // background-color: darkgreen;
+      h3{
+        font-size: 32px;
+        color: rgb(6, 193, 174);
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 5px;
+        span{
+          font-size: 44px;
+          margin-left: 14px;
+        }
+      }
+      p{
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+    .exp-fen{
+      float: left;
+      // display: inline-block;
+      height: 73px;
+      width: 1px;
+      background-image: linear-gradient(rgba(16, 202, 204, 0), rgb(16, 202, 204) 40%, rgb(16, 202, 204) 66%, rgba(16, 202, 204, 0));
+      transform: rotate(11deg);
+      margin: 0px 20px;
+    
+    }
+    .exp-box-shang{
+      float: left;
+      width: 758px;
+      height: 80px;
+      // background-color: darkgreen;
+      h3{
+        font-size: 32px;
+        color: rgb(6, 193, 174);
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 5px;
+        span{
+          font-size: 44px;
+          margin-left: 14px;
+        }
+      }
+      p{
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+// 6 抢占 qiang 
+.qiang{
+  height: 643px;
+  width: 100%;
+  
+  background-color: #f7f8fa;
+  .container{
+    overflow: hidden;
+  }
+  h2{
+    font-size: 30px;
+    color:  #111;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    height: 68px;
+  }
+  h2:after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 20px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 4px;
+    background: #06c1ae;
+    border-radius: 100px;
+}
+  ul{
+    &>li{
+      float: left;
+      height: 384px;
+      width: 491px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 8px 12px 0 rgba(0,0,0,.08);
+      img{
+        height: 180px;
+        width: 100%;
+      }
+      h3{
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 20px;
+        color: #111;
+        margin-bottom: 16px;
+      }
+      ol{
+        list-style-type: decimal;
+        font-size: 14px;
+        margin-left: 56px;
+    
+        li{
+          list-style: disc;
+          margin-bottom: 10px;
+          
+          p:first-child{
+            color: #111111;
+          }
+          p:last-child{
+            color: #666666;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    .qiang-yin,.qiang-duo{
+      margin-right: 42px;
+    }
+  }
+}

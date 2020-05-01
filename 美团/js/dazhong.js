@@ -46,3 +46,4 @@ $('.head-bottom-left-box li').mouseleave(function(){
   $(this).find('.head-bottom-li-box').hide()
   // console.log($(this))
 })
+

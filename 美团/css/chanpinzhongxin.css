@@ -4,27 +4,30 @@
   background-size: cover;
 }
 .down{
-  background-image: url(../images/dianping/down.png);
+  background-image: url(../images/chanpinzhongxin/down.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.solve{
-  background-image: url(../images/dianping/solve.png);
+ .diancan{
+  background-image: url(../images/chanpinzhongxin/diancan.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-.value{
-  background-image: url(../images/dianping/value.png);
+
+.miaofu{
+  background-image: url(../images/chanpinzhongxin/miaofu.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-.more{
-  background-image: url(../images/dianping/more.png);
+
+.kaipiao{
+  background-image: url(../images/chanpinzhongxin/kaipiao.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-.pin{
-  background-image: url(../images/dianping/pin.png);
+
+.paidui{
+  background-image: url(../images/chanpinzhongxin/paidui.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

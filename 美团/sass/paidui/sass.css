@@ -1,5 +1,5 @@
 .container {
-  width: 1562px;
+  width: 1560px;
   height: 100%;
   margin: 0 auto;
 }
@@ -10,7 +10,8 @@
   left: 0;
   height: 65px;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: #fff;
+  z-index: 2;
 }
 
 .nav .nav-left {
@@ -104,5 +105,296 @@
   right: 30px;
   -webkit-transform: rotate(-134deg);
           transform: rotate(-134deg);
+}
+
+.down {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #f7f8fa;
+}
+
+.down i {
+  position: absolute;
+  left: 230px;
+  top: -16px;
+  height: 0;
+  width: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid #f7f8fa;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.down ul {
+  width: 1562px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.down ul li {
+  float: left;
+  margin-top: 25px;
+  margin-right: 113px;
+}
+
+.down ul li div {
+  height: 100px;
+  width: 277px;
+  background-color: #ffffff;
+  padding-left: 85px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.down ul li div h3 {
+  font-size: 18px;
+  color: #111;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.down ul li div p {
+  margin-top: 5px;
+  color: #999999;
+}
+
+.down ul .windows h3,
+.down ul .android h3 {
+  margin-top: 40px;
+}
+
+.down ul .windows div:hover {
+  background-color: #3276bc;
+}
+
+.intro {
+  height: 800px;
+  width: 100%;
+}
+
+.intro .container {
+  overflow: hidden;
+}
+
+.intro .container h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-left: 660px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.intro .container h2:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 62px;
+  left: 84px;
+  width: 60px;
+  height: 4px;
+  background: #06c1ae;
+  border-radius: 100px;
+}
+
+.intro .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 175px;
+  border: 1px solid #f0f0f0;
+}
+
+.intro .container ul li {
+  width: 33.333%;
+  height: 50%;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.intro .container ul li h4 {
+  font-size: 28px;
+  color: #111111;
+  font-weight: normal;
+  margin: 2px auto;
+}
+
+.intro .container ul li p {
+  font-size: 20px;
+  color: #333333;
+}
+
+.intro .container ul .intro-li {
+  border-right: 1px solid #e5e5e5;
+}
+
+.exp {
+  height: 389px;
+  width: 100%;
+}
+
+.exp .container {
+  overflow: hidden;
+}
+
+.exp h2 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 110px;
+  color: #ffffff;
+}
+
+.exp .exp-box {
+  height: 190px;
+  width: 100%;
+  padding-top: 75px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.exp .exp-box .exp-box-xiao {
+  float: left;
+  width: 758px;
+  height: 80px;
+}
+
+.exp .exp-box .exp-box-xiao h3 {
+  font-size: 32px;
+  color: #06c1ae;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.exp .exp-box .exp-box-xiao h3 span {
+  font-size: 44px;
+  margin-left: 14px;
+}
+
+.exp .exp-box .exp-box-xiao p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.exp .exp-box .exp-fen {
+  float: left;
+  height: 73px;
+  width: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 202, 204, 0)), color-stop(40%, #10cacc), color-stop(66%, #10cacc), to(rgba(16, 202, 204, 0)));
+  background-image: linear-gradient(rgba(16, 202, 204, 0), #10cacc 40%, #10cacc 66%, rgba(16, 202, 204, 0));
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin: 0px 20px;
+}
+
+.exp .exp-box .exp-box-shang {
+  float: left;
+  width: 758px;
+  height: 80px;
+}
+
+.exp .exp-box .exp-box-shang h3 {
+  font-size: 32px;
+  color: #06c1ae;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.exp .exp-box .exp-box-shang h3 span {
+  font-size: 44px;
+  margin-left: 14px;
+}
+
+.exp .exp-box .exp-box-shang p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.qiang {
+  height: 643px;
+  width: 100%;
+  background-color: #f7f8fa;
+}
+
+.qiang .container {
+  overflow: hidden;
+}
+
+.qiang h2 {
+  font-size: 30px;
+  color: #111;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  height: 68px;
+}
+
+.qiang h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 20px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 4px;
+  background: #06c1ae;
+  border-radius: 100px;
+}
+
+.qiang ul > li {
+  float: left;
+  height: 384px;
+  width: 491px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.qiang ul > li img {
+  height: 180px;
+  width: 100%;
+}
+
+.qiang ul > li h3 {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.qiang ul > li ol {
+  list-style-type: decimal;
+  font-size: 14px;
+  margin-left: 56px;
+}
+
+.qiang ul > li ol li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+.qiang ul > li ol li p:first-child {
+  color: #111111;
+}
+
+.qiang ul > li ol li p:last-child {
+  color: #666666;
+  margin-top: 5px;
+}
+
+.qiang ul .qiang-yin, .qiang ul .qiang-duo {
+  margin-right: 42px;
 }
 /*# sourceMappingURL=sass.css.map */

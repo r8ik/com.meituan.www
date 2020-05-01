@@ -3,3 +3,38 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.windows div{
+  background: url(../images/paidui/windows.png) 25px 30px no-repeat;
+}
+.windows div:hover{
+  background: url(../images/paidui/windows2.png) 25px 30px no-repeat;
+}
+.android div{
+  background: url(../images/paidui/android.png) 25px 30px no-repeat;
+}
+.android div:hover{
+  background: #0fa650 url(../images/paidui/android2.png) 25px 30px no-repeat;
+}
+.qrcode div{
+  background: url(../images/paidui/qrcode.png) 20px 30px no-repeat;
+  background-size: 40px;
+}
+.qrcode div:hover{
+  background:#0fa650 url(../images/paidui/qrcode.png) 20px 30px no-repeat;
+  background-size: 40px;
+}
+.market div{
+  background: url(../images/paidui/market.png) 25px 30px no-repeat;
+}
+.market div:hover{
+  background:#fbbe21 url(../images/paidui/market2.png) 25px 30px no-repeat;
+}
+
+/* 5 经验 exp */
+.exp{
+  background-image: url(../images/paidui/exp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
