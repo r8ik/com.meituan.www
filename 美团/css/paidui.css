@@ -38,3 +38,16 @@
 }
 
 
+/* 10 方式 fang  */
+.fang .windows{
+  background: #fff url(../images/paidui/fang1.png) 106px 80px no-repeat;
+}
+/* .fang .windows:hover{
+  background: #3276bc url(../images/paidui/fang2.png) 106px 45px no-repeat;
+} */
+.fang .android{
+  background: #fff url(../images/paidui/fang3.png) 106px 80px no-repeat;
+}
+.fang .market{
+  background: #fff url(../images/paidui/fang5.png) 106px 80px no-repeat;
+}

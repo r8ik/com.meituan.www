@@ -8,8 +8,6 @@ body {
   height: 200px;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* 1 头部 上 */
@@ -96,8 +94,6 @@ body {
   position: absolute;
   left: 0;
   z-index: 2;
-  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .head-top-right-wo > li {
@@ -174,8 +170,6 @@ body {
   z-index: 2;
   width: 1200px;
   height: 292px;
-  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
@@ -264,128 +258,6 @@ body {
   width: 55px;
 }
 
-/* 2 轮播部分 carousel li里面的盒子 */
-.carousel-left-li {
-  position: relative;
-}
-
-.carousel-left-li .carousel-left-box {
-  display: none;
-  position: absolute;
-  top: -1px;
-  z-index: 2;
-  left: 229px;
-  /* top: 202px; */
-  /* left: 587px; */
-  height: 414px;
-  width: 400px;
-  background-color: #ffffff;
-  padding-left: 32px;
-  padding-right: 32px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-title {
-  height: 55px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-title-left {
-  float: left;
-  /* line-height: 54px; */
-  margin-top: 25px;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-title-left a {
-  font-size: 16px;
-  color: #222222;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-title-more {
-  float: right;
-  line-height: 55px;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-title-more a {
-  color: #999999;
-  font-size: 14px;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-body span {
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 12px;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-body span a {
-  color: #999999;
-}
-
-.carousel-left-li .carousel-left-box .carousel-left-box-body span a:hover {
-  color: #fe8c00;
-}
-
-.carousel-left-li-wai .carousel-left-box {
-  top: -27px;
-}
-
-.carousel-left-li-jiu .carousel-left-box {
-  top: -53px;
-}
-
-.carousel-left-li-min .carousel-left-box {
-  top: -79px;
-}
-
-.carousel-left-li-mao .carousel-left-box {
-  top: -105px;
-}
-
-.carousel-left-li-ji .carousel-left-box {
-  top: -131px;
-}
-
-.carousel-left-li-xiu .carousel-left-box {
-  top: -157px;
-}
-
-.carousel-left-li-sheng .carousel-left-box {
-  top: -183px;
-}
-
-.carousel-left-li-li .carousel-left-box {
-  top: -209px;
-}
-
-.carousel-left-li-jie .carousel-left-box {
-  top: -235px;
-}
-
-.carousel-left-li-qin .carousel-left-box {
-  top: -261px;
-}
-
-.carousel-left-li-yun .carousel-left-box {
-  top: -287px;
-}
-
-.carousel-left-li-jia .carousel-left-box {
-  top: -311px;
-}
-
-.carousel-left-li-xue .carousel-left-box {
-  top: -339px;
-}
-
-.carousel-left-li-yi .carousel-left-box {
-  top: -365px;
-}
-
-.carousel-left-li-jiub .carousel-left-box {
-  top: -391px;
-}
-
 .head-top-right-ul-wang:hover {
   background-color: #ffffff;
 }
@@ -425,11 +297,6 @@ body {
   height: 34px;
   border: 1px solid #e5e5e5;
   border-radius: 5px 0px 0px 5px;
-}
-
-.head-center .head-center-input .search img {
-  margin-left: 21px;
-  margin-top: 5px;
 }
 
 .head-center .head-center-input input {
@@ -514,6 +381,27 @@ body {
 /* 2 轮播部分 carousel */
 .carousel {
   height: 468px;
+  /* 2 轮播部分 carousel li里面的盒子 */
+  /* .carousel-left-box {
+    position: absolute;
+    top: 202px;
+    left: 587px;
+    height: 414px;
+    width: 400px;
+    background-color: #ffffff;
+    padding-left: 32px;
+    padding-right: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  } */
+  /* 轮播部分 carousel 右边 */
+  /* 轮播部分 carousel 右边 上 */
+  /* 3 电影 movie */
+  /* 4 民宿 homestay */
+  /* 5 猜你喜欢 like */
+  /* 6 导航 nav */
+  /* 7 用户帮助 help  */
+  /* 8 底部 foot */
 }
 
 .carousel .carousel-left {
@@ -586,61 +474,48 @@ body {
   color: #222222;
 }
 
-/* 2 轮播部分 carousel li里面的盒子 */
-/* .carousel-left-box {
-    position: absolute;
-    top: 202px;
-    left: 587px;
-    height: 414px;
-    width: 400px;
-    background-color: #ffffff;
-    padding-left: 32px;
-    padding-right: 32px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  } */
-/* 轮播部分 carousel 右边 */
-.carousel-right {
+.carousel .carousel-right {
   float: left;
   height: 416px;
   width: 950px;
+  background-color: bisque;
 }
 
-/* 轮播部分 carousel 右边 上 */
-.carousel-right-top {
+.carousel .carousel-right-top {
   height: 242px;
   width: 952px;
+  background-color: gold;
   margin-left: 10px;
   margin-top: 10px;
   /* 住酒店  */
 }
 
-.carousel-right-top .carousel-right-top-hotel {
+.carousel .carousel-right-top .carousel-right-top-hotel {
   float: left;
   position: relative;
   width: 551px;
   height: 242px;
+  background-color: aqua;
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-ul li {
+.carousel .carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-ul li {
   position: absolute;
 }
 
-.carousel-right-top .carousel-right-top-hotel img {
+.carousel .carousel-right-top .carousel-right-top-hotel img {
   width: 551px;
   height: 242px;
 }
 
-.carousel-right-top .carousel-right-top-hotel .hide {
+.carousel .carousel-right-top .carousel-right-top-hotel .hide {
   display: none;
 }
 
-.carousel-right-top .carousel-right-top-hotel .show {
+.carousel .carousel-right-top .carousel-right-top-hotel .show {
   display: block;
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-left {
-  display: none;
+.carousel .carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-left {
   position: absolute;
   top: 104px;
   left: 8px;
@@ -650,15 +525,7 @@ body {
   border-radius: 50%;
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-left img {
-  height: 20px;
-  width: auto;
-  margin-left: 11px;
-  margin-top: 8px;
-}
-
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-right {
-  display: none;
+.carousel .carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-right {
   position: absolute;
   top: 104px;
   right: 8px;
@@ -668,22 +535,13 @@ body {
   border-radius: 50%;
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-right img {
-  height: 20px;
-  width: auto;
-  margin-left: 13px;
-  margin-top: 10px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle {
+.carousel .carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle {
   position: absolute;
   bottom: 10px;
   left: 230px;
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle li {
+.carousel .carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle li {
   float: left;
   width: 11px;
   height: 2px;
@@ -691,23 +549,19 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.carousel-right-top .carousel-right-top-hotel .carousel-right-top-hotel-circle .current {
-  background-color: #eaf5f4;
-}
-
-.carousel-right-top .carousel-right-top-life {
+.carousel .carousel-right-top .carousel-right-top-life {
   float: left;
   width: 150px;
   height: 241px;
   margin-left: 10px;
 }
 
-.carousel-right-top .carousel-right-top-life img {
+.carousel .carousel-right-top .carousel-right-top-life img {
   width: 150px;
   height: 241px;
 }
 
-.carousel-right-top-login {
+.carousel .carousel-right-top-login {
   margin-left: 10px;
   float: left;
   width: 231px;
@@ -715,7 +569,7 @@ body {
   background-color: #ffffff;
 }
 
-.carousel-right-top-login .carousel-right-top-login-img {
+.carousel .carousel-right-top-login .carousel-right-top-login-img {
   height: 55px;
   width: 55px;
   border-radius: 50%;
@@ -724,12 +578,12 @@ body {
   margin-left: 88px;
 }
 
-.carousel-right-top-login .carousel-right-top-login-img img {
+.carousel .carousel-right-top-login .carousel-right-top-login-img img {
   height: 55px;
   width: 55px;
 }
 
-.carousel-right-top-login h3 {
+.carousel .carousel-right-top-login h3 {
   font-size: 16px;
   font-weight: normal;
   color: #222222;
@@ -738,7 +592,7 @@ body {
   margin-bottom: 12px;
 }
 
-.carousel-right-top-login .carousel-right-top-login-div {
+.carousel .carousel-right-top-login .carousel-right-top-login-div {
   text-align: center;
   height: 40px;
   width: 118px;
@@ -749,7 +603,7 @@ body {
   border-radius: 30px;
 }
 
-.carousel-right-top-login .carousel-right-top-login-div a {
+.carousel .carousel-right-top-login .carousel-right-top-login-div a {
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -757,26 +611,27 @@ body {
   color: #333333;
 }
 
-.carousel-right-bottom {
+.carousel .carousel-right-bottom {
   width: 955px;
   height: 166px;
+  background-color: red;
   margin-left: 10px;
   margin-top: 10px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-hotel, .carousel-right-bottom .carousel-right-bottom-zhang {
+.carousel .carousel-right-bottom .carousel-right-bottom-hotel, .carousel .carousel-right-bottom .carousel-right-bottom-zhang {
   float: left;
-  width: 271px;
+  width: 272px;
   height: 166px;
   margin-right: 10px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-hotel img, .carousel-right-bottom .carousel-right-bottom-zhang img {
+.carousel .carousel-right-bottom .carousel-right-bottom-hotel img, .carousel .carousel-right-bottom .carousel-right-bottom-zhang img {
   height: 100%;
   width: 100%;
 }
 
-.carousel-right-bottom .carousel-right-bottom-wo {
+.carousel .carousel-right-bottom .carousel-right-bottom-wo {
   float: left;
   width: 150px;
   height: 166px;
@@ -785,13 +640,13 @@ body {
   background-size: 150px 166px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-wo a {
+.carousel .carousel-right-bottom .carousel-right-bottom-wo a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
 
-.carousel-right-bottom .carousel-right-bottom-er {
+.carousel .carousel-right-bottom .carousel-right-bottom-er {
   float: left;
   text-align: center;
   width: 231px;
@@ -800,36 +655,36 @@ body {
   margin-left: 10px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-er img {
+.carousel .carousel-right-bottom .carousel-right-bottom-er img {
   height: 75px;
   width: 75px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-er h3 {
+.carousel .carousel-right-bottom .carousel-right-bottom-er h3 {
   font-size: 16px;
   font-weight: normal;
   color: #282a2d;
   margin-bottom: 8px;
 }
 
-.carousel-right-bottom .carousel-right-bottom-er h4 {
+.carousel .carousel-right-bottom .carousel-right-bottom-er h4 {
   font-size: 14px;
   font-weight: normal;
   color: #4b4b4b;
 }
 
-.carousel-right-bottom .carousel-right-bottom-er h4 span {
+.carousel .carousel-right-bottom .carousel-right-bottom-er h4 span {
   color: #ed5d3c;
 }
 
-/* 3 电影 movie */
-.movie {
+.carousel .movie {
   height: 384px;
+  background-color: cadetblue;
 }
 
-.movie .movie-title {
+.carousel .movie .movie-title {
   height: 44px;
   width: 100%;
   background-color: #fb3f5d;
@@ -838,11 +693,11 @@ body {
   border-bottom: 1px solid #fff;
 }
 
-.movie .movie-title .movie-title-left {
+.carousel .movie .movie-title .movie-title-left {
   float: left;
 }
 
-.movie .movie-title .movie-title-left h3 {
+.carousel .movie .movie-title .movie-title-left h3 {
   float: left;
   font-size: 18px;
   /* font-weight: 600; */
@@ -851,11 +706,11 @@ body {
   line-height: 44px;
 }
 
-.movie .movie-title .movie-title-left h3 a {
+.carousel .movie .movie-title .movie-title-left h3 a {
   color: #fef3ff;
 }
 
-.movie .movie-title .movie-title-left h4 {
+.carousel .movie .movie-title .movie-title-left h4 {
   position: relative;
   float: left;
   font-size: 14px;
@@ -865,11 +720,11 @@ body {
   line-height: 44px;
 }
 
-.movie .movie-title .movie-title-left h4 a {
+.carousel .movie .movie-title .movie-title-left h4 a {
   color: #fef3ff;
 }
 
-.movie .movie-title .movie-title-left h4 i {
+.carousel .movie .movie-title .movie-title-left h4 i {
   position: absolute;
   top: 26px;
   left: 20px;
@@ -882,66 +737,30 @@ body {
   border-top: 9px solid transparent;
 }
 
-.movie .movie-title .movie-title-right {
+.carousel .movie .movie-title .movie-title-right {
   float: right;
   margin-right: 22px;
   line-height: 44px;
 }
 
-.movie .movie-title .movie-title-right a {
+.carousel .movie .movie-title .movie-title-right a {
   font-size: 16px;
   color: #ffedec;
 }
 
-.movie .movie-bottom {
-  position: relative;
+.carousel .movie .movie-bottom {
   height: 300px;
   width: 100%;
+  background-color: blanchedalmond;
   overflow: hidden;
 }
 
-.movie .movie-bottom #left {
-  position: absolute;
-  top: 128px;
-  left: 8px;
-  height: 38px;
-  width: 38px;
-  background-color: #3b465c;
-  border-radius: 50%;
-}
-
-.movie .movie-bottom #left img {
-  height: 20px;
-  width: auto;
-  margin-left: 11px;
-  margin-top: 8px;
-}
-
-.movie .movie-bottom #right {
-  position: absolute;
-  top: 128px;
-  right: 8px;
-  height: 38px;
-  width: 38px;
-  background-color: #3b465c;
-  border-radius: 50%;
-}
-
-.movie .movie-bottom #right img {
-  height: 20px;
-  width: auto;
-  margin-left: 13px;
-  margin-top: 10px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.movie .movie-bottom-ul {
+.carousel .movie .movie-bottom-ul {
   height: 300px;
   width: 2430px;
 }
 
-.movie .movie-bottom-ul li {
+.carousel .movie .movie-bottom-ul li {
   position: relative;
   float: left;
   margin-left: 10px;
@@ -950,49 +769,48 @@ body {
   overflow: hidden;
 }
 
-.movie .movie-bottom-ul li .movie-bottom-ul-ming {
+.carousel .movie .movie-bottom-ul li .movie-bottom-ul-ming {
   position: absolute;
   bottom: 12px;
   left: 10px;
 }
 
-.movie .movie-bottom-ul li .movie-bottom-ul-ming h3 {
+.carousel .movie .movie-bottom-ul li .movie-bottom-ul-ming h3 {
   font-size: 14px;
   color: #fff;
   margin-bottom: 4px;
   font-weight: normal;
 }
 
-.movie .movie-bottom-ul li .movie-bottom-ul-ming h3 span {
+.carousel .movie .movie-bottom-ul li .movie-bottom-ul-ming h3 span {
   display: inline-block;
   margin-right: 5px;
   font-size: 19px;
   color: #ef9827;
 }
 
-.movie .movie-bottom-ul li .movie-bottom-ul-ming h2 {
+.carousel .movie .movie-bottom-ul li .movie-bottom-ul-ming h2 {
   font-size: 16px;
   color: #fff;
   font-weight: normal;
 }
 
-/* 4 民宿 homestay */
-.homestay {
+.carousel .homestay {
   height: 772px;
 }
 
-.homestay .homestay-title {
+.carousel .homestay .homestay-title {
   height: 44px;
   width: 100%;
   background-color: #f3bf47;
   border-radius: 8px 8px 0px 0px;
 }
 
-.homestay .homestay-title .homestay-title-left {
+.carousel .homestay .homestay-title .homestay-title-left {
   float: left;
 }
 
-.homestay .homestay-title .homestay-title-left h3 {
+.carousel .homestay .homestay-title .homestay-title-left h3 {
   float: left;
   font-size: 18px;
   /* font-weight: 600; */
@@ -1001,11 +819,11 @@ body {
   line-height: 44px;
 }
 
-.homestay .homestay-title .homestay-title-left h3 a {
+.carousel .homestay .homestay-title .homestay-title-left h3 a {
   color: #fef3ff;
 }
 
-.homestay .homestay-title .homestay-title-left h4 {
+.carousel .homestay .homestay-title .homestay-title-left h4 {
   position: relative;
   float: left;
   font-size: 14px;
@@ -1015,36 +833,22 @@ body {
   line-height: 44px;
 }
 
-.homestay .homestay-title .homestay-title-left h4 a {
+.carousel .homestay .homestay-title .homestay-title-left h4 a {
   color: #fef3ff;
 }
 
-.homestay .homestay-title .homestay-title-left h4 i {
-  display: none;
-  position: absolute;
-  float: left;
-  top: 26px;
-  left: 5px;
-  height: 0px;
-  width: 2px;
-  border-bottom: 9px solid #ffffff;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 9px solid transparent;
-}
-
-.homestay .homestay-title .homestay-title-right {
+.carousel .homestay .homestay-title .homestay-title-right {
   float: right;
   margin-right: 22px;
   line-height: 44px;
 }
 
-.homestay .homestay-title .homestay-title-right a {
+.carousel .homestay .homestay-title .homestay-title-right a {
   font-size: 16px;
   color: #ffedec;
 }
 
-.homestay .homestay-bottom {
+.carousel .homestay .homestay-bottom {
   position: relative;
   height: 693px;
   width: 100%;
@@ -1058,19 +862,13 @@ body {
   border-radius: 0px 0px 5px 5px;
 }
 
-.homestay .homestay-bottom ul {
-  display: none;
+.carousel .homestay .homestay-bottom ul {
   position: absolute;
   height: 690px;
   width: 100%;
 }
 
-.homestay .homestay-bottom > ul > img {
-  float: left;
-  margin-top: -20px;
-}
-
-.homestay .homestay-bottom li {
+.carousel .homestay .homestay-bottom li {
   position: relative;
   float: left;
   height: 336px;
@@ -1079,19 +877,19 @@ body {
   background-color: #ffffff;
 }
 
-.homestay .homestay-bottom .homestay-bottom-img {
+.carousel .homestay .homestay-bottom .homestay-bottom-img {
   height: 208px;
   width: 370px;
   overflow: hidden;
   border-radius: 3px;
 }
 
-.homestay .homestay-bottom .homestay-bottom-img img {
+.carousel .homestay .homestay-bottom .homestay-bottom-img img {
   height: 100%;
   width: 100%;
 }
 
-.homestay .homestay-bottom h3 {
+.carousel .homestay .homestay-bottom h3 {
   font-size: 16px;
   font-weight: normal;
   color: #222222;
@@ -1103,24 +901,24 @@ body {
   text-overflow: ellipsis;
 }
 
-.homestay .homestay-bottom h4 {
+.carousel .homestay .homestay-bottom h4 {
   font-size: 12px;
   color: #999999;
   font-weight: normal;
   margin-bottom: 10px;
 }
 
-.homestay .homestay-bottom h5 {
+.carousel .homestay .homestay-bottom h5 {
   font-size: 18px;
   color: #ff6600;
 }
 
-.homestay .homestay-bottom h5 span {
+.carousel .homestay .homestay-bottom h5 span {
   font-size: 14px;
   font-weight: normal;
 }
 
-.homestay .homestay-bottom .homestay-bottom-tou {
+.carousel .homestay .homestay-bottom .homestay-bottom-tou {
   position: absolute;
   top: 183px;
   left: 305px;
@@ -1130,32 +928,27 @@ body {
   overflow: hidden;
 }
 
-.homestay .homestay-bottom .homestay-bottom-tou img {
+.carousel .homestay .homestay-bottom .homestay-bottom-tou img {
   height: 100%;
   width: 100%;
 }
 
-.homestay-bottom .minsu-ul {
-  cursor: pointer;
-}
-
-/* 5 猜你喜欢 like */
-.like {
+.carousel .like {
   height: 844px;
 }
 
-.like .like-title {
+.carousel .like .like-title {
   height: 44px;
   width: 100%;
   background-color: #4ab9d3;
   border-radius: 8px 8px 0px 0px;
 }
 
-.like .like-title .like-title-left {
+.carousel .like .like-title .like-title-left {
   float: left;
 }
 
-.like .like-title .like-title-left h3 {
+.carousel .like .like-title .like-title-left h3 {
   float: left;
   font-size: 18px;
   /* font-weight: 600; */
@@ -1164,11 +957,11 @@ body {
   line-height: 44px;
 }
 
-.like .like-title .like-title-left h3 a {
+.carousel .like .like-title .like-title-left h3 a {
   color: #fef3ff;
 }
 
-.like .like-title .like-title-left h4 {
+.carousel .like .like-title .like-title-left h4 {
   position: relative;
   float: left;
   font-size: 14px;
@@ -1178,11 +971,11 @@ body {
   line-height: 44px;
 }
 
-.like .like-title .like-title-left h4 a {
+.carousel .like .like-title .like-title-left h4 a {
   color: #fef3ff;
 }
 
-.like .like-title .like-title-left h4 i {
+.carousel .like .like-title .like-title-left h4 i {
   position: absolute;
   top: 26px;
   left: 48px;
@@ -1195,7 +988,7 @@ body {
   border-top: 9px solid transparent;
 }
 
-.like .like-bottom-ul-li {
+.carousel .like .like-bottom-ul-li {
   float: left;
   height: 246px;
   width: 238px;
@@ -1206,7 +999,7 @@ body {
           box-sizing: border-box;
 }
 
-.like .like-bottom-ul-li h2 {
+.carousel .like .like-bottom-ul-li h2 {
   width: 210px;
   font-size: 16px;
   overflow: hidden;
@@ -1217,35 +1010,35 @@ body {
   margin-bottom: 8px;
 }
 
-.like .like-bottom-ul-li:hover {
+.carousel .like .like-bottom-ul-li:hover {
   background-color: #f4f4f4;
 }
 
-.like .like-bottom-img {
+.carousel .like .like-bottom-img {
   height: 120px;
   width: 214px;
   border-radius: 5px;
   overflow: hidden;
 }
 
-.like .like-bottom-img img {
+.carousel .like .like-bottom-img img {
   height: 100%;
   width: 100%;
 }
 
-.like p {
+.carousel .like p {
   font-size: 12px;
   color: #999;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 
-.like h3 {
+.carousel .like h3 {
   font-size: 14px;
   color: #ff6600;
 }
 
-.like h3 span {
+.carousel .like h3 span {
   font-size: 23px;
   color: #ff6600;
   margin-left: 2px;
@@ -1253,35 +1046,34 @@ body {
   font-weight: normal;
 }
 
-.like .like-bottom-ping {
+.carousel .like .like-bottom-ping {
   height: 15px;
 }
 
-.like .like-bottom-ping li {
+.carousel .like .like-bottom-ping li {
   float: left;
   margin-right: 2px;
 }
 
-.like .like-bottom-ping span {
+.carousel .like .like-bottom-ping span {
   display: inline-block;
   margin-top: 2px;
   margin-left: 3px;
   color: #a599b2;
 }
 
-/* 6 导航 nav */
-.nav {
+.carousel .nav {
   height: 312px;
 }
 
-.nav .nav-box {
+.carousel .nav .nav-box {
   height: 270px;
   width: 100%;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
 }
 
-.nav .nav-title {
+.carousel .nav .nav-title {
   height: 54px;
   line-height: 56px;
   padding-left: 20px;
@@ -1290,23 +1082,23 @@ body {
   background-color: #ffffff;
 }
 
-.nav .nav-title span {
+.carousel .nav .nav-title span {
   color: #222222;
   font-size: 16px;
 }
 
-.nav .nav-body {
+.carousel .nav .nav-body {
   height: 216px;
   width: 100%;
   background-color: #ffffff;
 }
 
-.nav .nav-body-li {
+.carousel .nav .nav-body-li {
   height: 72px;
   width: 100%;
 }
 
-.nav .nav-body-li-left {
+.carousel .nav .nav-body-li-left {
   float: left;
   width: 100px;
   height: 100%;
@@ -1316,18 +1108,18 @@ body {
           box-sizing: border-box;
 }
 
-.nav .nav-body-li-left span {
+.carousel .nav .nav-body-li-left span {
   color: #222222;
   font-size: 14px;
 }
 
-.nav .nav-body-li-right {
+.carousel .nav .nav-body-li-right {
   float: right;
   width: 1090px;
   height: 100%;
 }
 
-.nav .nav-body-li-right li {
+.carousel .nav .nav-body-li-right li {
   height: 16px;
   margin-top: 12px;
   width: 102px;
@@ -1337,7 +1129,7 @@ body {
   text-overflow: ellipsis;
 }
 
-.nav .nav-body-li-right li span {
+.carousel .nav .nav-body-li-right li span {
   display: inline-block;
   color: #666666;
   width: 74px;
@@ -1346,22 +1138,21 @@ body {
   text-overflow: ellipsis;
 }
 
-.nav .nav-body-li-right li span:hover {
+.carousel .nav .nav-body-li-right li span:hover {
   color: #fe8c00;
 }
 
-.nav .nav-body-li-right-border {
+.carousel .nav .nav-body-li-right-border {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* 7 用户帮助 help  */
-.help {
+.carousel .help {
   height: 540px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.help .help-box {
+.carousel .help .help-box {
   padding-top: 40px;
   padding-left: 40px;
   width: 100%;
@@ -1370,20 +1161,20 @@ body {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.help .help-div {
+.carousel .help .help-div {
   float: left;
   height: 460px;
   width: 218px;
 }
 
-.help .help-div dl:nth-child(2),
-.help .help-div dl:nth-child(3),
-.help .help-div dl:nth-child(4),
-.help .help-div dl:nth-child(5) {
+.carousel .help .help-div dl:nth-child(2),
+.carousel .help .help-div dl:nth-child(3),
+.carousel .help .help-div dl:nth-child(4),
+.carousel .help .help-div dl:nth-child(5) {
   margin-top: 20px;
 }
 
-.help .help-div dt {
+.carousel .help .help-div dt {
   height: 28px;
   width: 100%;
   font-size: 14px;
@@ -1391,31 +1182,30 @@ body {
   line-height: 28px;
 }
 
-.help .help-div dd {
+.carousel .help .help-div dd {
   height: 24px;
   width: 100%;
   line-height: 24px;
 }
 
-.help .help-div dd a {
+.carousel .help .help-div dd a {
   color: #666666;
 }
 
-.help .help-div dd a:hover {
+.carousel .help .help-div dd a:hover {
   color: #fe8c00;
 }
 
-.help .help-div p {
+.carousel .help .help-div p {
   margin-top: 32px;
 }
 
-.help .help-div p a {
+.carousel .help .help-div p a {
   color: #666666;
   font-size: 14px;
 }
 
-/* 8 底部 foot */
-.foot {
+.carousel .foot {
   height: 122px;
   padding-left: 15px;
   padding-top: 15px;
@@ -1423,47 +1213,47 @@ body {
           box-sizing: border-box;
 }
 
-.foot .foot-left {
+.carousel .foot .foot-left {
   float: left;
   width: 580px;
   height: 100%;
 }
 
-.foot .foot-left p {
+.carousel .foot .foot-left p {
   margin-bottom: 5px;
 }
 
-.foot .foot-left p span {
+.carousel .foot .foot-left p span {
   color: #bcbcbc;
 }
 
-.foot .foot-left a {
+.carousel .foot .foot-left a {
   color: #bcbcbc;
 }
 
-.foot .foot-right {
+.carousel .foot .foot-right {
   float: right;
   width: 530px;
   height: 100%;
 }
 
-.foot .foot-right .foot-right-top {
+.carousel .foot .foot-right .foot-right-top {
   width: 100%;
   height: 25px;
   line-height: 25px;
 }
 
-.foot .foot-right p {
+.carousel .foot .foot-right p {
   font-size: 12px;
   float: right;
   display: block;
 }
 
-.foot .foot-right p a {
+.carousel .foot .foot-right p a {
   color: #999999;
 }
 
-.foot .foot-right .foot-right-xiao {
+.carousel .foot .foot-right .foot-right-xiao {
   float: right;
   height: 38px;
   width: 110px;
@@ -1472,7 +1262,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.foot .foot-right .foot-right-ke {
+.carousel .foot .foot-right .foot-right-ke {
   float: right;
   height: 38px;
   width: 106px;
@@ -1481,7 +1271,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.foot .foot-right .foot-right-jing {
+.carousel .foot .foot-right .foot-right-jing {
   float: right;
   height: 38px;
   width: 106px;
@@ -1490,28 +1280,28 @@ body {
   background-repeat: no-repeat;
 }
 
-.foot .foot-right .foot-right-bei {
+.carousel .foot .foot-right .foot-right-bei {
   float: right;
   height: 38px;
   width: 170px;
 }
 
-.foot .foot-right .foot-right-bei img {
+.carousel .foot .foot-right .foot-right-bei img {
   height: 38px;
   width: 38px;
 }
 
-.foot .foot-right .foot-right-bei p {
+.carousel .foot .foot-right .foot-right-bei p {
   line-height: 38px;
   margin-right: 5px;
   color: #999999;
 }
 
-.foot .foot-right .foot-right-bei:hover p {
+.carousel .foot .foot-right .foot-right-bei:hover p {
   color: #fe8c00;
 }
 
-.foot a:hover {
+.carousel .foot a:hover {
   color: #fe8c00;
 }
 /*# sourceMappingURL=sass.css.map */

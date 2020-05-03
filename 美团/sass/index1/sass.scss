@@ -8,7 +8,6 @@ body {
   height: 200px;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 2px 27px 0 rgba(0,0,0,0.10);
 }
 
 /* 1 头部 上 */
@@ -20,7 +19,6 @@ body {
 /* 1 头部 上 左 */
 .head-top-left {
   line-height: 40px;
-
 }
 
 .head-top-left > span {
@@ -96,7 +94,7 @@ body {
   position: absolute;
   left: 0;
   z-index: 2;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .head-top-right-wo > li {
@@ -171,7 +169,7 @@ body {
     width: 1200px;
     height: 292px;
     // -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
      background-color: #fff;
   .head-top-right-wang-jiu{ 
     float: left;
@@ -248,173 +246,6 @@ body {
     }
   }
 }
-/* 2 轮播部分 carousel li里面的盒子 */
-  // .carousel-left-AllBox {
-  //   position: absolute;
-  //   z-index: 6;
-  //   top: 202px;
-  //   left: 587px;
-  //   height: 414px;
-  //   width: 400px;
-  //   background-color: #ffffff;
-  //   padding-left: 32px;
-  //   padding-right: 32px;
-  //   -webkit-box-sizing: border-box;
-  //   box-sizing: border-box;
-  // }
-    .carousel-left-li{
-      position: relative;
-      .carousel-left-box {
-        display: none;
-        position: absolute;
-        top: -1px;
-        z-index: 2;
-        left: 229px;
-        /* top: 202px; */
-        /* left: 587px; */
-        height: 414px;
-        width: 400px;
-        background-color: #ffffff;
-        padding-left: 32px;
-        padding-right: 32px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-           
-        .carousel-left-box-title {
-          height: 55px;
-          border-bottom: 1px solid #e5e5e5;
-        }    
-        .carousel-left-box-title-left {
-          float: left;
-          /* line-height: 54px; */
-          margin-top: 25px;
-        }
-        .carousel-left-box-title-left a {
-          font-size: 16px;
-          color: #222222;
-        }
-        
-        .carousel-left-box-title-more {
-          float: right;
-          line-height: 55px;
-        }
-        
-        .carousel-left-box-title-more a {
-          color: #999999;
-          font-size: 14px;
-        }
-        
-        .carousel-left-box-body span {
-          display: inline-block;
-          margin-top: 10px;
-          margin-right: 12px;
-        }
-        
-        .carousel-left-box-body span a {
-          color: #999999;
-        }
-        
-        .carousel-left-box-body span a:hover {
-          color: #fe8c00;
-        }
-        
-        // .carousel-left-AllBox{
-        //   display: none;
-        // }
-      }
-    }
-    .carousel-left-li-wai{
-      .carousel-left-box{
-        top: -27px;
-      }
-    }
-    .carousel-left-li-jiu{
-      .carousel-left-box{
-        top: -53px;
-      }
-    }
-    .carousel-left-li-min{
-      .carousel-left-box{
-        top: -79px;
-
-      }
-    }
-    .carousel-left-li-mao{
-      .carousel-left-box{
-        top: -105px;
-
-      }
-    }
-    
-    .carousel-left-li-ji{
-      .carousel-left-box{
-        top: -131px;
-
-      }
-    }
-    .carousel-left-li-xiu{
-      .carousel-left-box{
-        top: -157px;
-
-      }
-    }
-
-    .carousel-left-li-sheng{
-      .carousel-left-box{
-        top: -183px;
-
-      }
-    }
-    .carousel-left-li-li{
-      .carousel-left-box{
-        top: -209px;
-
-      }
-    }
-
-    .carousel-left-li-jie{
-      .carousel-left-box{
-        top: -235px;
-
-      }
-    }
-    .carousel-left-li-qin{
-      .carousel-left-box{
-        top: -261px;
-
-      }
-    }
-    .carousel-left-li-yun{
-      .carousel-left-box{
-        top: -287px;
-
-      }
-    }
-    .carousel-left-li-jia{
-      .carousel-left-box{
-        top: -311px;
-      }
-    }
-    .carousel-left-li-xue{
-      .carousel-left-box{
-        top: -339px;
-      }
-    }
-    .carousel-left-li-yi{
-      .carousel-left-box{
-        top: -365px;
-      }
-    }
-    .carousel-left-li-jiub{
-      .carousel-left-box{
-        top: -391px;
-      }
-    }
-
-
-
-
-
 
 .head-top-right-ul-wang:hover{
   background-color: #ffffff;
@@ -459,12 +290,6 @@ body {
   height: 34px;
   border: 1px solid #e5e5e5;
   border-radius: 5px 0px 0px 5px;
-  .search {
-    img{
-      margin-left: 21px;
-      margin-top: 5px;
-    }
-  }
 }
 
 .head-center .head-center-input input {
@@ -619,7 +444,6 @@ body {
     font-weight: 600;
     color: #222222;
   }
-}
   /* 2 轮播部分 carousel li里面的盒子 */
   // .carousel-left-AllBox {
   //   position: absolute;
@@ -706,14 +530,14 @@ body {
   float: left;
   height: 416px;
   width: 950px;
-  // background-color: bisque;
+  background-color: bisque;
 }
 
 /* 轮播部分 carousel 右边 上 */
 .carousel-right-top{
   height: 242px;
   width: 952px;
-  // background-color: gold;
+  background-color: gold;
   margin-left: 10px;
   margin-top: 10px;
 
@@ -723,7 +547,7 @@ body {
     position: relative;
     width: 551px;
     height: 242px;
-    // background-color: aqua;
+    background-color: aqua;
     
     .carousel-right-top-hotel-ul{
 
@@ -741,9 +565,7 @@ body {
      .show{
        display: block;
      }
-      //  轮播图按钮
       .carousel-right-top-hotel-left{
-        display: none;
         position: absolute;
         top: 104px;
         left: 8px;
@@ -751,25 +573,8 @@ body {
         width: 38px;
         background-color: #354a49;
         border-radius: 50%;
-        img{
-          height: 20px;
-          width: auto;
-          margin-left: 11px;
-          margin-top: 8px;
-        }
       }   
-      // .icon-btn_left{
-      //   position: absolute;
-      //   display: inline-block;
-      //   height: 38px;
-      //   width: 38px;
-      //   background-color: darkcyan;
-      // }
-      // .icon-btn_left:before {
-      //   content: "\e608";
-      //  }
       .carousel-right-top-hotel-right{
-        display: none;
         position: absolute;
         top: 104px;
         right: 8px;
@@ -777,13 +582,6 @@ body {
         width: 38px;
         background-color: #48485c;
         border-radius: 50%;
-        img{
-          height: 20px;
-          width: auto;
-          margin-left: 13px;
-          margin-top: 10px;
-          transform: rotate(180deg);
-        }
       }
       .carousel-right-top-hotel-circle{
 
@@ -796,9 +594,6 @@ body {
           height: 2px;
           margin-right: 10px;
           background-color: rgba($color: #fff, $alpha: 0.5)
-        }
-        .current{
-          background-color: #eaf5f4;
         }
       }
   }
@@ -874,13 +669,13 @@ body {
 .carousel-right-bottom{
   width: 955px;
   height: 166px;
-  // background-color: red;
+  background-color: red;
   margin-left: 10px;
   margin-top: 10px;
   //住酒店   涨姿势
   .carousel-right-bottom-hotel,.carousel-right-bottom-zhang{
     float: left;
-    width: 271px;
+    width: 272px;
     height: 166px;
     margin-right: 10px;
     img{
@@ -942,7 +737,7 @@ body {
 /* 3 电影 movie */
 .movie {
   height: 384px;
-  // background-color: cadetblue;
+  background-color: cadetblue;
   // 头
   .movie-title{
     height: 44px;
@@ -1005,46 +800,10 @@ body {
   }
   //底
   .movie-bottom{
-    position: relative;
     height: 300px;
     width: 100%;
-    // background-color: blanchedalmond;
-    overflow: hidden;
-    
-   #left{
-      // display: none;
-      position: absolute;
-      top: 128px;
-      left: 8px;
-      height: 38px;
-      width: 38px;
-      background-color: #3b465c;
-      border-radius: 50%;
-      img{
-        height: 20px;
-        width: auto;
-        margin-left: 11px;
-        margin-top: 8px;
-      }
-    }   
-  
-    #right{
-      // display: none;
-      position: absolute;
-      top: 128px;
-      right: 8px;
-      height: 38px;
-      width: 38px;
-      background-color: #3b465c;
-      border-radius: 50%;
-      img{
-        height: 20px;
-        width: auto;
-        margin-left: 13px;
-        margin-top: 10px;
-        transform: rotate(180deg);
-      }
-    }
+    background-color: blanchedalmond;
+  overflow: hidden;
   }
   
   .movie-bottom-ul{
@@ -1126,22 +885,18 @@ body {
           color: #fef3ff;
     
         }
-        i{
-          display: none;
-
-          position: absolute;
-          float: left;
-          top: 26px;
-          left: 5px;
-          // display: inline-block;
-          height: 0px;
-          width: 2px;
-          border-bottom: 9px solid #ffffff;
-          border-left: 6px solid transparent;
-          border-right: 6px solid transparent;
-          border-top: 9px solid transparent;
-
-        }
+        // i{
+        //   position: absolute;
+        //   top: 26px;
+        //   left: 5px;
+        //   display: inline-block;
+        //   height: 0px;
+        //   width: 2px;
+        //   border-bottom: 9px solid #ffffff;
+        //   border-left: 6px solid transparent;
+        //   border-right: 6px solid transparent;
+        //   border-top: 9px solid transparent;
+        // }
       }
     }
     // 头 右
@@ -1166,22 +921,13 @@ body {
     border-bottom: 1px solid #e7e7e7;
     border-left: 1px solid #e7e7e7;
     border-right: 1px solid #e7e7e7;
-    border-radius: 0px 0px 5px 5px;
+border-radius: 0px 0px 5px 5px;
     // ul
     ul{
-      // position:absolute;
-      display: none;
       position: absolute;
       height: 690px;
       width: 100%;
     }
-    
-     // 其余 ul
-     &>ul>img{
-      float: left;
-      margin-top: -20px;
-     }
-   
     li{
       position: relative;
       float: left;
@@ -1242,14 +988,8 @@ body {
     }
   }
 
-
-
 }
-.homestay-bottom .minsu-ul{
-  cursor: pointer;
- 
 
-}
 
 
 /* 5 猜你喜欢 like */
@@ -1614,10 +1354,5 @@ body {
     color: #fe8c00;
   }
 }
-// }
+}
 /*# sourceMappingURL=sass.css.map */
-
-// .active{
-//   display: block;
-// }
-

@@ -36,3 +36,18 @@ $('.ying-li').mouseenter(function () {
   $('.ying-box').eq(index).addClass('active')
   $('.ying-box').eq(index).siblings().removeClass('active')
 })
+
+// console.log($('.fang .windows'))
+// $('.fang .windows').hover(function(){
+//   // $(this).find('h3').hide()
+//   $(this).find('.mouse-hover').show()
+// },function(){
+//   $(this).find('h3').show()
+//   $(this).find('h3').css(
+//     {
+//       // ' margin-top': '0'
+//      ' margin-bottom': '500px'
+//     }
+//   )
+//   $(this).find('.mouse-hover').hide()
+// })

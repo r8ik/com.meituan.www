@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container {
   width: 1560px;
   height: 100%;
@@ -548,7 +549,109 @@
 }
 
 .lian {
-  height: 165px;
+  height: 230px;
   width: 100%;
+  padding-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lian .container {
+  background: #ebfaf9;
+  border-radius: 8px;
+  height: 110px;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lian .container p:first-child {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.lian .container p:last-child {
+  font-size: 18px;
+  color: #111;
+}
+
+.lian .container .tel {
+  position: absolute;
+  right: 90px;
+  top: 30px;
+  width: 185px;
+  height: 50px;
+  background: #06c1ae;
+  border-radius: 100px;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 23px;
+  padding-top: 11px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fang {
+  height: 500px;
+  width: 100%;
+}
+
+.fang .container h2 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  height: 98px;
+  width: 100%;
+}
+
+.fang .container h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 20px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 4px;
+  background: #06c1ae;
+  border-radius: 100px;
+}
+
+.fang .container ul {
+  height: 314px;
+  width: 100%;
+}
+
+.fang .container ul li {
+  float: left;
+  width: 300px;
+  height: 100%;
+  border: 1px solid #dddddd;
+}
+
+.fang .container ul li h3 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.fang .container ul li:nth-child(1),
+.fang .container ul li:nth-child(2) {
+  margin-right: 327px;
+}
+
+/* 鼠标移入后效果 */
+.bottom {
+  height: 72px;
+  width: 100%;
+  text-align: center;
+}
+
+.bottom h4 {
+  font-weight: normal;
+  color: #999999;
 }
 /*# sourceMappingURL=sass.css.map */

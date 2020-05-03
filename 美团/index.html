@@ -7,8 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>青岛美团网-青岛美食_酒店_旅游_团购_电影_吃喝玩乐</title>
   <link rel="stylesheet" href="./css/reset/normalize.css">
+  <link rel="stylesheet" href="./fonts/iconfont.css">
   <link rel="stylesheet" href="./css/common.css">
+  
   <link rel="stylesheet" href="./sass/sass.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     <div class="head-top">
       <div class="container">
         <div class="head-top-left">
-
+           <!-- <i  class="header-icon icon-header_location"></i> -->
           <span class="head-top-left-area">青岛</span>
           <span class="head-top-left-switch"><a href="#">切换城市</a></span>
           <div class="head-top-left-city">
@@ -66,9 +69,9 @@
                 <li><a href="#">规则评议院</a></li>
               </ul>
             </li>
-            <li>
+            <li  class="head-top-right-ul-li head-top-right-ul-wang">
               <a href="#">网站导航</a>
-              <!-- <div class="head-top-right-wang">
+              <div class="head-top-right-wang">
                 <div class="head-top-right-wang-jiu">
                   <h3>酒店旅游</h3>
                   <ul class="head-top-right-wang-jiu-ul">
@@ -120,7 +123,7 @@
                     <li><a href="#"><img src="./images/index/head-top-right-wang-shou-ul-05.png" alt=""></a></li>
                   </ul>
                 </div>
-              </div> -->
+              </div>
             </li>
           </ul>
         </div>
@@ -138,7 +141,9 @@
             <span>热门搜索</span>
           </div>
           <!-- 搜索图标 -->
-          <span></span>
+          <span class="search">
+            <img src="./images/index/search.png" alt="">
+          </span>
 
         </div>
       </div>
@@ -166,103 +171,183 @@
   <div class="carousel">
     <div class="container">
       <ul class="carousel-left">
-        <li>
+        <li class="carousel-left-li">
           <i>
             <img src="./images/index/carousel-left-li-i-01.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">美食</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
-          <!-- li里面的盒子 -->
-          <!-- <div class="carousel-left-box">
-            <div class="carousel-left-box-title">
-              <span class="carousel-left-box-title-left">
-                <a href="#">美食</a>
-              </span>
-              <span class="carousel-left-box-title-more">
-                <a href="#">更多 ></a>
-              </span>
-            </div>
-            <div class="carousel-left-box-body">
-              <span><a href="#">代金券</a></span>
-              <span><a href="#">甜点饮品</a></span>
-              <span><a href="#">火锅</a></span>
-              <span><a href="#">自助餐</a></span>
-              <span><a href="#">小吃快餐</a></span>
-              <span><a href="#">日韩料理</a></span>
-              <span><a href="#">西餐</a></span>
-              <span><a href="#">聚餐宴请</a></span>
-              <span><a href="#">烧烤烤肉</a></span>
-              <span><a href="#">东北菜</a></span>
-              <span><a href="#">川湘菜</a></span>
-              <span><a href="#">江浙菜</a></span>
-              <span><a href="#">香锅烤鱼</a></span>
-              <span><a href="#">粤港菜</a></span>
-              <span><a href="#">中式烧烤/烤串</a></span>
-              <span><a href="#">西北菜</a></span>
-              <span><a href="#">咖啡酒吧茶馆</a></span>
-              <span><a href="#">云贵菜</a></span>
-              <span><a href="#">东南亚菜</a></span>
-              <span><a href="#">海鲜</a></span>
-              <span><a href="#">素食</a></span>
-              <span><a href="#">台湾/客家菜</a></span>
-              <span><a href="#">创意菜</a></span>
-              <span><a href="#">汤/粥/炖菜</a></span>
-              <span><a href="#">蒙餐</a></span>
-              <span><a href="#">新疆菜</a></span>
-              <span><a href="#">其他美食</a></span>
-              <span><a href="#">京菜鲁菜</a></span>
-                
-            </div>
-          </div> -->
+           <!-- 第一个 美食 -->
+        <div class="carousel-left-box">
+         <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">美食</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">代金券</a></span>
+          <span><a href="#">甜点饮品</a></span>
+          <span><a href="#">火锅</a></span>
+          <span><a href="#">自助餐</a></span>
+          <span><a href="#">小吃快餐</a></span>
+          <span><a href="#">日韩料理</a></span>
+          <span><a href="#">西餐</a></span>
+          <span><a href="#">聚餐宴请</a></span>
+          <span><a href="#">烧烤烤肉</a></span>
+          <span><a href="#">东北菜</a></span>
+          <span><a href="#">川湘菜</a></span>
+          <span><a href="#">江浙菜</a></span>
+          <span><a href="#">香锅烤鱼</a></span>
+          <span><a href="#">粤港菜</a></span>
+          <span><a href="#">中式烧烤/烤串</a></span>
+          <span><a href="#">西北菜</a></span>
+          <span><a href="#">咖啡酒吧茶馆</a></span>
+          <span><a href="#">云贵菜</a></span>
+          <span><a href="#">东南亚菜</a></span>
+          <span><a href="#">海鲜</a></span>
+          <span><a href="#">素食</a></span>
+          <span><a href="#">台湾/客家菜</a></span>
+          <span><a href="#">创意菜</a></span>
+          <span><a href="#">汤/粥/炖菜</a></span>
+          <span><a href="#">蒙餐</a></span>
+          <span><a href="#">新疆菜</a></span>
+          <span><a href="#">其他美食</a></span>
+          <span><a href="#">京菜鲁菜</a></span>
+  
+        </div>
+        </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-wai">
           <i>
             <img src="./images/index/carousel-left-li-i-02.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">外卖</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
-          <!-- li里面的盒子 -->
-          <!-- <div class="carousel-left-box">
-                  <div class="carousel-left-box-title">
-                    <span class="carousel-left-box-title-left">
-                      <a href="#">美食</a>
-                    </span>
-                    <span class="carousel-left-box-title-more">
-                      <a href="#">更多 ></a>
-                    </span>
-                  </div>
-                  <div class="carousel-left-box-body">
-                    <span><a href="#">代金券</a></span>
-                  </div>
-                </div> -->
+          <!-- 第二个 外卖-->
+           <div class="carousel-left-box ">
+              <div class="carousel-left-box-title">
+                <span class="carousel-left-box-title-left">
+                  <a href="#">外卖</a>
+                </span>
+                <span class="carousel-left-box-title-more">
+                  <a href="#">更多 ></a>
+                </span>
+              </div>
+              <div class="carousel-left-box-body">
+                <span><a href="#">美团外卖</a></span>
+              </div>
+            </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-jiu">
           <i>
             <img src="./images/index/carousel-left-li-i-03.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">酒店</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+          <!-- 第三个 酒店-->
+          <div class="carousel-left-box">
+              <div class="carousel-left-box-title">
+                <span class="carousel-left-box-title-left">
+                  <a href="#">酒店星级</a>
+                </span>
+                <span class="carousel-left-box-title-more">
+                  <a href="#">更多 ></a>
+                </span>
+              </div>
+              <div class="carousel-left-box-body">
+                <span><a href="#">经济型</a></span>
+                <span><a href="#">舒适/三星</a></span>
+                <span><a href="#">高档/四星</a></span>
+                <span><a href="#">豪华/五星</a></span>
+              </div>
+            </div> 
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-min">
           <i>
             <img src="./images/index/carousel-left-li-i-04.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">民宿</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+          <!-- 第四个民宿 -->
+          <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">热门城市</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">上海</a></span>
+          <span><a href="#">成都</a></span>
+          <span><a href="#">北京</a></span>
+          <span><a href="#">重庆</a></span>
+          <span><a href="#">南京</a></span>
+          <span><a href="#">杭州</a></span>
+          <span><a href="#">广州</a></span>
+          <span><a href="#">西安</a></span>
+          <span><a href="#">武汉</a></span>
+          <span><a href="#">厦门</a></span>
+          <span><a href="#">长沙</a></span>
+          <span><a href="#">青岛</a></span>
+          <span><a href="#">深圳</a></span>
+          <span><a href="#">天津</a></span>
+          <span><a href="#">苏州</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">热门房源</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">复式Loft</a></span>
+          <span><a href="#">别墅</a></span>
+        </div>
+          </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-mao">
           <i>
             <img src="./images/index/carousel-left-li-i-05.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">猫眼电影</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+            <!-- 第五个 猫眼电影 -->
+           <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">热门影院</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">西海岸电影城</a></span>
+          <span><a href="#">万达影城</a></span>
+          <span><a href="#">星美国际影城</a></span>
+          <span><a href="#">金逸影城</a></span>
+          <span><a href="#">横店电影城</a></span>
+          <span><a href="#">CGV影城</a></span>
+          <span><a href="#">中影国际影城</a></span>
+          <span><a href="#">大地影院</a></span>
+          <span><a href="#">耀莱成龙国际影城</a></span>
+          <span><a href="#">鲁信影城</a></span>
+        </div>
+             </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-ji">
           <i>
             <img src="./images/index/carousel-left-li-i-06.png" alt="">
           </i>
@@ -270,8 +355,34 @@
           <span><a href="#" class="carousel-left-li-a">火车票</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+           <!-- 第六个 机票-->
+         <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">机票</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">国内机票</a></span>
+          <span><a href="#">国际/港澳台机票</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">火车票</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">火车票</a></span>
+        </div>
+            </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-xiu">
           <i>
             <img src="./images/index/carousel-left-li-i-07.png" alt="">
           </i>
@@ -279,16 +390,88 @@
           <span><a href="#" class="carousel-left-li-a"> KTV</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+              <!-- 第七个 休闲娱乐-->
+             <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">休闲娱乐</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">足疗按摩</a></span>
+          <span><a href="#">洗浴/汗蒸</a></span>
+          <span><a href="#">酒吧</a></span>
+          <span><a href="#">密室逃脱</a></span>
+          <span><a href="#">轰趴馆</a></span>
+          <span><a href="#">茶馆</a></span>
+          <span><a href="#">私人影院</a></span>
+          <span><a href="#">DIY手工坊</a></span>
+          <span><a href="#">采摘/农家乐</a></span>
+          <span><a href="#">网吧网咖</a></span>
+          <span><a href="#">游乐游艺</a></span>
+          <span><a href="#">VR</a></span>
+          <span><a href="#">桌面游戏</a></span>
+          <span><a href="#">真人CS</a></span>
+          <span><a href="#">棋牌室</a></span>
+          <span><a href="#">其他玩乐</a></span>
+  
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">KTV</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">KTV</a></span>
+        </div>
+               </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-sheng">
           <i>
             <img src="./images/index/carousel-left-li-i-08.png" alt="">
           </i>
           <span><a href="#" class="carousel-left-li-a">生活服务</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+           <!-- 第八个 生活服务-->
+        <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">生活服务</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">衣物/皮具洗护</a></span>
+          <span><a href="#">家政</a></span>
+          <span><a href="#">搬家运输</a></span>
+          <span><a href="#">送水</a></span>
+          <span><a href="#">充值缴费</a></span>
+          <span><a href="#">服饰/鞋包养护</a></span>
+          <span><a href="#">开锁换锁</a></span>
+          <span><a href="#">居家维修</a></span>
+          <span><a href="#">管道疏通</a></span>
+          <span><a href="#">家电维修清洗</a></span>
+          <span><a href="#">电脑维修</a></span>
+          <span><a href="#">手机维修</a></span>
+          <span><a href="#">证件照/肖像摄影</a></span>
+          <span><a href="#">照片冲印/图文文印</a></span>
+          <span><a href="#">商务服务/法律服务</a></span>
+          <span><a href="#">文化传媒机构</a></span>
+          <span><a href="#">成人用品/情趣用品</a></span>
+        </div>
+  
+             </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-li">
           <i>
             <img src="./images/index/carousel-left-li-i-09.png" alt="">
           </i>
@@ -297,8 +480,33 @@
           <span><a href="#" class="carousel-left-li-a"> 医学美容</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+           <!-- 第九个 丽人-->
+           <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">丽人</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">美发</a></span>
+          <span><a href="#">美甲美睫</a></span>
+          <span><a href="#">美容美体</a></span>
+          <span><a href="#">医学美容</a></span>
+          <span><a href="#">瑜伽舞蹈</a></span>
+          <span><a href="#">瘦身纤体</a></span>
+          <span><a href="#">韩式定妆</a></span>
+          <span><a href="#">祛痘</a></span>
+          <span><a href="#">纹身</a></span>
+          <span><a href="#">化妆品</a></span>
+          <span><a href="#">养发</a></span>
+        </div>
+  
+            </div> 
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-jie">
           <i>
             <img src="./images/index/carousel-left-li-i-10.png" alt="">
           </i>
@@ -307,8 +515,36 @@
           <span><a href="#" class="carousel-left-li-a">婚宴</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+            <!-- 第十个 结婚 -->
+             <div class="carousel-left-box"> 
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">结婚</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">婚纱摄影</a></span>
+          <span><a href="#">旅拍</a></span>
+          <span><a href="#">个性写真</a></span>
+          <span><a href="#">婚宴</a></span>
+          <span><a href="#">婚庆公司</a></span>
+          <span><a href="#">婚纱礼服</a></span>
+          <span><a href="#">西服定制</a></span>
+          <span><a href="#">婚戒首饰</a></span>
+          <span><a href="#">婚车租赁</a></span>
+          <span><a href="#">司仪主持</a></span>
+          <span><a href="#">彩妆造型</a></span>
+          <span><a href="#">婚礼跟拍</a></span>
+          <span><a href="#">婚礼小礼品</a></span>
+          <span><a href="#">更多婚礼服务</a></span>
+        </div>
+  
+            </div> 
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-qin">
           <i>
             <img src="./images/index/carousel-left-li-i-11.png" alt="">
           </i>
@@ -317,8 +553,73 @@
           <span><a href="#" class="carousel-left-li-a">幼教</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+           <!-- 第十一个 亲子-->
+         <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">儿童乐园</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">婴儿游泳</a></span>
+          <span><a href="#">其它亲子游乐</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">幼儿教育</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">早教中心</a></span>
+          <span><a href="#">少儿英语</a></span>
+          <span><a href="#">智力开发</a></span>
+          <span><a href="#">托班/幼儿园</a></span>
+          <span><a href="#">幼儿教育</a></span>
+          <span><a href="#">其他幼儿教育</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">亲子摄影</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">儿童摄影</a></span>
+          <span><a href="#">孕妇写真</a></span>
+          <span><a href="#">上门拍</a></span>
+          <span><a href="#">其他亲子摄影</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">孕产护理</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">月子会所</a></span>
+          <span><a href="#">产后恢复</a></span>
+          <span><a href="#">妇幼医院</a></span>
+          <span><a href="#">孕产用品</a></span>
+          <span><a href="#">开奶催乳</a></span>
+          <span><a href="#">月嫂</a></span>
+          <span><a href="#">亲子购物</a></span>
+          <span><a href="#">宝宝派对</a></span>
+          <span><a href="#">亲子服务</a></span>
+  
+        </div>
+             </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-yun">
           <i>
             <img src="./images/index/carousel-left-li-i-12.png" alt="">
           </i>
@@ -326,8 +627,39 @@
           <span><a href="#" class="carousel-left-li-a"> 健身中心</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+          <!-- 第十二个 运动健身 -->
+           <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">运动健身</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">健身中心</a></span>
+          <span><a href="#">武术场馆</a></span>
+          <span><a href="#">游泳馆</a></span>
+          <span><a href="#">羽毛球馆</a></span>
+          <span><a href="#">溜冰场</a></span>
+          <span><a href="#">射箭馆</a></span>
+          <span><a href="#">篮球场</a></span>
+          <span><a href="#">网球馆</a></span>
+          <span><a href="#">台球馆</a></span>
+          <span><a href="#">乒乓球</a></span>
+          <span><a href="#">足球场</a></span>
+          <span><a href="#">高尔夫场</a></span>
+          <span><a href="#">保龄球馆</a></span>
+          <span><a href="#">体育场馆</a></span>
+          <span><a href="#">马术场</a></span>
+          <span><a href="#">壁球馆</a></span>
+          <span><a href="#">更多运动</a></span>
+        </div>
+  
+          </div> 
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-jia">
           <i>
             <img src="./images/index/carousel-left-li-i-13.png" alt="">
           </i>
@@ -336,8 +668,76 @@
           <span><a href="#" class="carousel-left-li-a">家居</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+            <!-- 第十三个 家装 -->
+           <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">装修设计</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">半包装修</a></span>
+          <span><a href="#">全包装修</a></span>
+          <span><a href="#">清包装修</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">装修建材</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">地板</a></span>
+          <span><a href="#">瓷砖石材</a></span>
+          <span><a href="#">橱柜</a></span>
+          <span><a href="#">灯饰照明</a></span>
+          <span><a href="#">厨卫洁具</a></span>
+          <span><a href="#">油漆涂料</a></span>
+          <span><a href="#">集成吊顶</a></span>
+          <span><a href="#">墙纸墙艺</a></span>
+          <span><a href="#">门窗</a></span>
+          <span><a href="#">木材板材</a></span>
+          <span><a href="#">家用五金</a></span>
+          <span><a href="#">电工电料</a></span>
+          <span><a href="#">楼梯</a></span>
+          <span><a href="#">管材管件</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">家具家居</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">家具</a></span>
+          <span><a href="#">床上用品/家纺</a></span>
+          <span><a href="#">家居饰品</a></span>
+          <span><a href="#">厨具餐具</a></span>
+          <span><a href="#">智能家居</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">家装卖场</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">建材卖场</a></span>
+          <span><a href="#">家居卖场</a></span>
+          <span><a href="#">灯饰卖场</a></span>
+        </div>
+           </div> 
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-xue">
           <i>
             <img src="./images/index/carousel-left-li-i-14.png" alt="">
           </i>
@@ -345,8 +745,79 @@
           <span><a href="#" class="carousel-left-li-a">音乐培训</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+             <!-- 第十四个  学习培训-->
+              <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">音乐培训</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">钢琴</a></span>
+          <span><a href="#">吉他</a></span>
+          <span><a href="#">小提琴</a></span>
+          <span><a href="#">古筝</a></span>
+          <span><a href="#">架子鼓</a></span>
+          <span><a href="#">声乐</a></span>
+          <span><a href="#">其他音乐培训</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">职业技术</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">美容化妆</a></span>
+          <span><a href="#">会计</a></span>
+          <span><a href="#">IT</a></span>
+          <span><a href="#">厨艺</a></span>
+          <span><a href="#">管理培训</a></span>
+          <span><a href="#">摄影培训</a></span>
+          <span><a href="#">司法考试</a></span>
+          <span><a href="#">公务员培训</a></span>
+          <span><a href="#">其他职业培训</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">外语培训</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">英语</a></span>
+          <span><a href="#">日语</a></span>
+          <span><a href="#">韩语</a></span>
+          <span><a href="#">法语</a></span>
+          <span><a href="#">德语</a></span>
+          <span><a href="#">汉语</a></span>
+          <span><a href="#">俄语</a></span>
+          <span><a href="#">西班牙语</a></span>
+          <span><a href="#">其他外语</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">美术培训</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">绘画</a></span>
+          <span><a href="#">书法</a></span>
+          <span><a href="#">其他美术</a></span>
+        </div>
+              </div>  
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-yi">
           <i>
             <img src="./images/index/carousel-left-li-i-15.png" alt="">
           </i>
@@ -355,8 +826,68 @@
           <span><a href="#" class="carousel-left-li-a">爱车 /</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+          
+          <!-- 第十五个 医疗健康 -->
+           <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">医疗健康</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">医院</a></span>
+          <span><a href="#">齿科口腔</a></span>
+          <span><a href="#">体检中心</a></span>
+          <span><a href="#">药店</a></span>
+          <span><a href="#">中医</a></span>
+          <span><a href="#">其他健康服务</a></span>
+  
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">爱车</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">洗车</a></span>
+          <span><a href="#">租车</a></span>
+          <span><a href="#">加油站</a></span>
+          <span><a href="#">维修保养</a></span>
+          <span><a href="#">驾校</a></span>
+          <span><a href="#">陪练</a></span>
+          <span><a href="#">汽车用品</a></span>
+          <span><a href="#">停车场</a></span>
+          <span><a href="#">汽车保险</a></span>
+          <span><a href="#">4S店/汽车销售</a></span>
+          <span><a href="#">更多汽车服务</a></span>
+          <span><a href="#">机油保养</a></span>
+          <span><a href="#">汽车报价</a></span>
+          <span><a href="#">二手车</a></span>
+          <span><a href="#">广告驾校</a></span>
+          <span><a href="#">交警队</a></span>
+          <span><a href="#">汽车改装</a></span>
+          <span><a href="#">汽车配件</a></span>
+        </div>
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">宠物</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">宠物店宠物医院</a></span>
+        </div>
+            </div>
         </li>
-        <li>
+        <li class="carousel-left-li carousel-left-li-jiub">
           <i>
             <img src="./images/index/carousel-left-li-i-16.png" alt="">
           </i>
@@ -364,626 +895,36 @@
           <span><a href="#" class="carousel-left-li-a">密室逃脱</a></span>
           <s class="xia"></s>
           <s class="shang"></s>
+             <!-- 第十六个 酒吧 -->
+              <div class="carousel-left-box">
+        <div class="carousel-left-box-title">
+          <span class="carousel-left-box-title-left">
+            <a href="#">玩乐</a>
+          </span>
+          <span class="carousel-left-box-title-more">
+            <a href="#">更多 ></a>
+          </span>
+        </div>
+        <div class="carousel-left-box-body">
+          <span><a href="#">KTV</a></span>
+          <span><a href="#">酒吧</a></span>
+          <span><a href="#">密室逃脱</a></span>
+          <span><a href="#">游乐游艺</a></span>
+          <span><a href="#">网吧网咖</a></span>
+          <span><a href="#">私人影院</a></span>
+          <span><a href="#">DIY手工坊</a></span>
+          <span><a href="#">桌面游戏</a></span>
+          <span><a href="#">采摘/农家乐</a></span>
+          <span><a href="#">棋牌室</a></span>
+          <span><a href="#">轰趴馆</a></span>
+          <span><a href="#">真人CS</a></span>
+          <span><a href="#">VR</a></span>
+          <span><a href="#">其他玩乐</a></span>
+        </div>
+                 </div> 
         </li>
       </ul>
-      <!-- li里面的盒子 -->
-      <div class="carousel-left-AllBox">
-        <!-- 第一个 美食 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">美食</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">代金券</a></span>
-            <span><a href="#">甜点饮品</a></span>
-            <span><a href="#">火锅</a></span>
-            <span><a href="#">自助餐</a></span>
-            <span><a href="#">小吃快餐</a></span>
-            <span><a href="#">日韩料理</a></span>
-            <span><a href="#">西餐</a></span>
-            <span><a href="#">聚餐宴请</a></span>
-            <span><a href="#">烧烤烤肉</a></span>
-            <span><a href="#">东北菜</a></span>
-            <span><a href="#">川湘菜</a></span>
-            <span><a href="#">江浙菜</a></span>
-            <span><a href="#">香锅烤鱼</a></span>
-            <span><a href="#">粤港菜</a></span>
-            <span><a href="#">中式烧烤/烤串</a></span>
-            <span><a href="#">西北菜</a></span>
-            <span><a href="#">咖啡酒吧茶馆</a></span>
-            <span><a href="#">云贵菜</a></span>
-            <span><a href="#">东南亚菜</a></span>
-            <span><a href="#">海鲜</a></span>
-            <span><a href="#">素食</a></span>
-            <span><a href="#">台湾/客家菜</a></span>
-            <span><a href="#">创意菜</a></span>
-            <span><a href="#">汤/粥/炖菜</a></span>
-            <span><a href="#">蒙餐</a></span>
-            <span><a href="#">新疆菜</a></span>
-            <span><a href="#">其他美食</a></span>
-            <span><a href="#">京菜鲁菜</a></span>
-
-          </div>
-        </div>
-        <!-- 第二个 外卖-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">外卖</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">美团外卖</a></span>
-          </div>
-        </div>
-        <!-- 第三个 酒店-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">酒店星级</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">经济型</a></span>
-            <span><a href="#">舒适/三星</a></span>
-            <span><a href="#">高档/四星</a></span>
-            <span><a href="#">豪华/五星</a></span>
-          </div>
-        </div>
-        <!-- 第四个民宿 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">热门城市</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">上海</a></span>
-            <span><a href="#">成都</a></span>
-            <span><a href="#">北京</a></span>
-            <span><a href="#">重庆</a></span>
-            <span><a href="#">南京</a></span>
-            <span><a href="#">杭州</a></span>
-            <span><a href="#">广州</a></span>
-            <span><a href="#">西安</a></span>
-            <span><a href="#">武汉</a></span>
-            <span><a href="#">厦门</a></span>
-            <span><a href="#">长沙</a></span>
-            <span><a href="#">青岛</a></span>
-            <span><a href="#">深圳</a></span>
-            <span><a href="#">天津</a></span>
-            <span><a href="#">苏州</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">热门房源</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">复式Loft</a></span>
-            <span><a href="#">别墅</a></span>
-          </div>
-        </div>
-        <!-- 第五个 猫眼电影 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">热门影院</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">西海岸电影城</a></span>
-            <span><a href="#">万达影城</a></span>
-            <span><a href="#">星美国际影城</a></span>
-            <span><a href="#">金逸影城</a></span>
-            <span><a href="#">横店电影城</a></span>
-            <span><a href="#">CGV影城</a></span>
-            <span><a href="#">中影国际影城</a></span>
-            <span><a href="#">大地影院</a></span>
-            <span><a href="#">耀莱成龙国际影城</a></span>
-            <span><a href="#">鲁信影城</a></span>
-          </div>
-        </div>
-        <!-- 第六个 机票-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">机票</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">国内机票</a></span>
-            <span><a href="#">国际/港澳台机票</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">火车票</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">火车票</a></span>
-          </div>
-        </div>
-        <!-- 第七个 休闲娱乐-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">休闲娱乐</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">足疗按摩</a></span>
-            <span><a href="#">洗浴/汗蒸</a></span>
-            <span><a href="#">酒吧</a></span>
-            <span><a href="#">密室逃脱</a></span>
-            <span><a href="#">轰趴馆</a></span>
-            <span><a href="#">茶馆</a></span>
-            <span><a href="#">私人影院</a></span>
-            <span><a href="#">DIY手工坊</a></span>
-            <span><a href="#">采摘/农家乐</a></span>
-            <span><a href="#">网吧网咖</a></span>
-            <span><a href="#">游乐游艺</a></span>
-            <span><a href="#">VR</a></span>
-            <span><a href="#">桌面游戏</a></span>
-            <span><a href="#">真人CS</a></span>
-            <span><a href="#">棋牌室</a></span>
-            <span><a href="#">其他玩乐</a></span>
-
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">KTV</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">KTV</a></span>
-          </div>
-        </div>
-        <!-- 第八个 生活服务-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">生活服务</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">衣物/皮具洗护</a></span>
-            <span><a href="#">家政</a></span>
-            <span><a href="#">搬家运输</a></span>
-            <span><a href="#">送水</a></span>
-            <span><a href="#">充值缴费</a></span>
-            <span><a href="#">服饰/鞋包养护</a></span>
-            <span><a href="#">开锁换锁</a></span>
-            <span><a href="#">居家维修</a></span>
-            <span><a href="#">管道疏通</a></span>
-            <span><a href="#">家电维修清洗</a></span>
-            <span><a href="#">电脑维修</a></span>
-            <span><a href="#">手机维修</a></span>
-            <span><a href="#">证件照/肖像摄影</a></span>
-            <span><a href="#">照片冲印/图文文印</a></span>
-            <span><a href="#">商务服务/法律服务</a></span>
-            <span><a href="#">文化传媒机构</a></span>
-            <span><a href="#">成人用品/情趣用品</a></span>
-          </div>
-
-        </div>
-        <!-- 第九个 丽人-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">丽人</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">美发</a></span>
-            <span><a href="#">美甲美睫</a></span>
-            <span><a href="#">美容美体</a></span>
-            <span><a href="#">医学美容</a></span>
-            <span><a href="#">瑜伽舞蹈</a></span>
-            <span><a href="#">瘦身纤体</a></span>
-            <span><a href="#">韩式定妆</a></span>
-            <span><a href="#">祛痘</a></span>
-            <span><a href="#">纹身</a></span>
-            <span><a href="#">化妆品</a></span>
-            <span><a href="#">养发</a></span>
-          </div>
-
-        </div>
-        <!-- 第十个 结婚 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">结婚</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">婚纱摄影</a></span>
-            <span><a href="#">旅拍</a></span>
-            <span><a href="#">个性写真</a></span>
-            <span><a href="#">婚宴</a></span>
-            <span><a href="#">婚庆公司</a></span>
-            <span><a href="#">婚纱礼服</a></span>
-            <span><a href="#">西服定制</a></span>
-            <span><a href="#">婚戒首饰</a></span>
-            <span><a href="#">婚车租赁</a></span>
-            <span><a href="#">司仪主持</a></span>
-            <span><a href="#">彩妆造型</a></span>
-            <span><a href="#">婚礼跟拍</a></span>
-            <span><a href="#">婚礼小礼品</a></span>
-            <span><a href="#">更多婚礼服务</a></span>
-          </div>
-
-        </div>
-        <!-- 第十一个 亲子-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">儿童乐园</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">婴儿游泳</a></span>
-            <span><a href="#">其它亲子游乐</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">幼儿教育</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">早教中心</a></span>
-            <span><a href="#">少儿英语</a></span>
-            <span><a href="#">智力开发</a></span>
-            <span><a href="#">托班/幼儿园</a></span>
-            <span><a href="#">幼儿教育</a></span>
-            <span><a href="#">其他幼儿教育</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">亲子摄影</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">儿童摄影</a></span>
-            <span><a href="#">孕妇写真</a></span>
-            <span><a href="#">上门拍</a></span>
-            <span><a href="#">其他亲子摄影</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">孕产护理</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">月子会所</a></span>
-            <span><a href="#">产后恢复</a></span>
-            <span><a href="#">妇幼医院</a></span>
-            <span><a href="#">孕产用品</a></span>
-            <span><a href="#">开奶催乳</a></span>
-            <span><a href="#">月嫂</a></span>
-            <span><a href="#">亲子购物</a></span>
-            <span><a href="#">宝宝派对</a></span>
-            <span><a href="#">亲子服务</a></span>
-
-          </div>
-        </div>
-        <!-- 第十二个 运动健身 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">运动健身</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">健身中心</a></span>
-            <span><a href="#">武术场馆</a></span>
-            <span><a href="#">游泳馆</a></span>
-            <span><a href="#">羽毛球馆</a></span>
-            <span><a href="#">溜冰场</a></span>
-            <span><a href="#">射箭馆</a></span>
-            <span><a href="#">篮球场</a></span>
-            <span><a href="#">网球馆</a></span>
-            <span><a href="#">台球馆</a></span>
-            <span><a href="#">乒乓球</a></span>
-            <span><a href="#">足球场</a></span>
-            <span><a href="#">高尔夫场</a></span>
-            <span><a href="#">保龄球馆</a></span>
-            <span><a href="#">体育场馆</a></span>
-            <span><a href="#">马术场</a></span>
-            <span><a href="#">壁球馆</a></span>
-            <span><a href="#">更多运动</a></span>
-          </div>
-
-        </div>
-        <!-- 第十三个 家装 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">装修设计</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">半包装修</a></span>
-            <span><a href="#">全包装修</a></span>
-            <span><a href="#">清包装修</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">装修建材</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">地板</a></span>
-            <span><a href="#">瓷砖石材</a></span>
-            <span><a href="#">橱柜</a></span>
-            <span><a href="#">灯饰照明</a></span>
-            <span><a href="#">厨卫洁具</a></span>
-            <span><a href="#">油漆涂料</a></span>
-            <span><a href="#">集成吊顶</a></span>
-            <span><a href="#">墙纸墙艺</a></span>
-            <span><a href="#">门窗</a></span>
-            <span><a href="#">木材板材</a></span>
-            <span><a href="#">家用五金</a></span>
-            <span><a href="#">电工电料</a></span>
-            <span><a href="#">楼梯</a></span>
-            <span><a href="#">管材管件</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">家具家居</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">家具</a></span>
-            <span><a href="#">床上用品/家纺</a></span>
-            <span><a href="#">家居饰品</a></span>
-            <span><a href="#">厨具餐具</a></span>
-            <span><a href="#">智能家居</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">家装卖场</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">建材卖场</a></span>
-            <span><a href="#">家居卖场</a></span>
-            <span><a href="#">灯饰卖场</a></span>
-          </div>
-        </div>
-
-
-        <!-- 第十四个  学习培训-->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">音乐培训</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">钢琴</a></span>
-            <span><a href="#">吉他</a></span>
-            <span><a href="#">小提琴</a></span>
-            <span><a href="#">古筝</a></span>
-            <span><a href="#">架子鼓</a></span>
-            <span><a href="#">声乐</a></span>
-            <span><a href="#">其他音乐培训</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">职业技术</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">美容化妆</a></span>
-            <span><a href="#">会计</a></span>
-            <span><a href="#">IT</a></span>
-            <span><a href="#">厨艺</a></span>
-            <span><a href="#">管理培训</a></span>
-            <span><a href="#">摄影培训</a></span>
-            <span><a href="#">司法考试</a></span>
-            <span><a href="#">公务员培训</a></span>
-            <span><a href="#">其他职业培训</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">外语培训</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">英语</a></span>
-            <span><a href="#">日语</a></span>
-            <span><a href="#">韩语</a></span>
-            <span><a href="#">法语</a></span>
-            <span><a href="#">德语</a></span>
-            <span><a href="#">汉语</a></span>
-            <span><a href="#">俄语</a></span>
-            <span><a href="#">西班牙语</a></span>
-            <span><a href="#">其他外语</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">美术培训</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">绘画</a></span>
-            <span><a href="#">书法</a></span>
-            <span><a href="#">其他美术</a></span>
-          </div>
-        </div>
-
-
-        <!-- 第十五个 医疗健康 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">医疗健康</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">医院</a></span>
-            <span><a href="#">齿科口腔</a></span>
-            <span><a href="#">体检中心</a></span>
-            <span><a href="#">药店</a></span>
-            <span><a href="#">中医</a></span>
-            <span><a href="#">其他健康服务</a></span>
-
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">爱车</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">洗车</a></span>
-            <span><a href="#">租车</a></span>
-            <span><a href="#">加油站</a></span>
-            <span><a href="#">维修保养</a></span>
-            <span><a href="#">驾校</a></span>
-            <span><a href="#">陪练</a></span>
-            <span><a href="#">汽车用品</a></span>
-            <span><a href="#">停车场</a></span>
-            <span><a href="#">汽车保险</a></span>
-            <span><a href="#">4S店/汽车销售</a></span>
-            <span><a href="#">更多汽车服务</a></span>
-            <span><a href="#">机油保养</a></span>
-            <span><a href="#">汽车报价</a></span>
-            <span><a href="#">二手车</a></span>
-            <span><a href="#">广告驾校</a></span>
-            <span><a href="#">交警队</a></span>
-            <span><a href="#">汽车改装</a></span>
-            <span><a href="#">汽车配件</a></span>
-          </div>
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">宠物</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">宠物店宠物医院</a></span>
-          </div>
-        </div>
-
-
-        <!-- 第十六个 酒吧 -->
-        <div class="carousel-left-box">
-          <div class="carousel-left-box-title">
-            <span class="carousel-left-box-title-left">
-              <a href="#">玩乐</a>
-            </span>
-            <span class="carousel-left-box-title-more">
-              <a href="#">更多 ></a>
-            </span>
-          </div>
-          <div class="carousel-left-box-body">
-            <span><a href="#">KTV</a></span>
-            <span><a href="#">酒吧</a></span>
-            <span><a href="#">密室逃脱</a></span>
-            <span><a href="#">游乐游艺</a></span>
-            <span><a href="#">网吧网咖</a></span>
-            <span><a href="#">私人影院</a></span>
-            <span><a href="#">DIY手工坊</a></span>
-            <span><a href="#">桌面游戏</a></span>
-            <span><a href="#">采摘/农家乐</a></span>
-            <span><a href="#">棋牌室</a></span>
-            <span><a href="#">轰趴馆</a></span>
-            <span><a href="#">真人CS</a></span>
-            <span><a href="#">VR</a></span>
-            <span><a href="#">其他玩乐</a></span>
-          </div>
-        </div>
-
-      </div>
+     
       <!-- 轮播部分 carousel 右边 -->
       <div class="carousel-right">
         <!-- 轮播部分 carousel 右边 上 -->
@@ -991,33 +932,38 @@
           <!-- 住酒店 -->
           <div class="carousel-right-top-hotel">
             <ul class="carousel-right-top-hotel-ul">
-              <li class="show">
+              <li>
                 <a href="#"><img src="./images/index/carousel-right-top-hotel-01.jpg" alt=""></a>
               </li>
-              <li class="hide">
+              <li>
                 <a href="#"><img src="./images/index/carousel-right-top-hotel-02.jpg" alt=""></a>
               </li>
-              <li class="hide">
+              <li>
                 <a href="#"><img src="./images/index/carousel-right-top-hotel-03.jpg" alt=""></a>
               </li>
-              <li class="hide">
+              <li>
                 <a href="#"><img src="./images/index/carousel-right-top-hotel-04.jpg" alt=""></a>
               </li>
-              <li class="hide">
+              <li>
                 <a href="#"><img src="./images/index/carousel-right-top-hotel-05.png" alt=""></a>
               </li>
             </ul>
-            <!-- 轮播图小圆点 -->
+            <!-- 小圆点 -->
             <ul class="carousel-right-top-hotel-circle">
-              <li></li>
+              <li class="current"></li>
               <li></li>
               <li></li>
               <li></li>
               <li></li>
             </ul>
-            <!-- 轮播图按钮 -->
-            <i class="carousel-right-top-hotel-left"></i>
-            <i class="carousel-right-top-hotel-right"></i>
+            <!-- 按钮 -->
+            <i class="carousel-right-top-hotel-left">
+              <img src="./images/index/carousel-l.png" alt="">
+            </i>
+            <!-- <i class="iconfont icon-btn_left"></i> -->
+            <i class="carousel-right-top-hotel-right">
+              <img src="./images/index/carousel-l.png" alt="">
+            </i>
 
           </div>
           <!-- 休闲生活 -->
@@ -1144,6 +1090,13 @@
             </div>
           </li>
         </ul>
+        <i class="movie-left" id="left">
+            <img src="./images/index/carousel-l.png" alt="">
+          </i>
+          <!-- <i class="iconfont icon-btn_left"></i> -->
+          <i class="movie-right" id="right">
+            <img src="./images/index/carousel-l.png" alt="">
+          </i>
       </div>
       <div class="movie-bottom-ul-ming"></div>
     </div>
@@ -1156,7 +1109,7 @@
         <!-- 头 左 -->
         <div class="homestay-title-left">
           <h3><a href="#">推荐民宿</a></h3>
-          <h4><a href="#">天津</a><i></i></h4>
+          <h4><a href="#">天津</a><i style="display: block;"></i></h4>
           <h4><a href="#">济南</a><i></i></h4>
           <h4><a href="#">大连</a><i></i></h4>
           <h4><a href="#">太原</a><i></i></h4>
@@ -1174,98 +1127,125 @@
       </div>
       <!-- 底 -->
       <div class="homestay-bottom">
-        <ul>
+       <ul style="display: block" class="minsu-ul">
           <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-                <img src="./images/index/homestay-bottom-01.jpg" alt="">
+              <a href="#">
+                <div class="homestay-bottom-img">
+                  <img src="./images/index/homestay-bottom-01.jpg" alt="">
+                </div>
+                <h3>【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影</h3>
+                <h4>整套可住老城厢/鼓楼</h4>
+                <h5><span>￥</span>118</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影</h3>
-              <h4>整套可住老城厢/鼓楼</h4>
-              <h5><span>￥</span>118</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
-          <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-                <img src="./images/index/homestay-bottom-02.jpg" alt="">
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>北欧**大床房</h3>
-              <h4>整套可住南市</h4>
-              <h5><span>￥</span>98</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
-          <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-
-                <img src="./images/index/homestay-bottom-03.jpg" alt="">
+            </li>
+            <li>
+              <a href="#">
+                <div class="homestay-bottom-img">
+                  <img src="./images/index/homestay-bottom-02.jpg" alt="">
+                </div>
+                <h3>北欧**大床房</h3>
+                <h4>整套可住南市</h4>
+                <h5><span>￥</span>98</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影</h3>
-              <h4>整套可住老城厢/鼓楼</h4>
-              <h5><span>￥</span>118</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
-          <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-                <img src="./images/index/homestay-bottom-04.jpg" alt="">
+            </li>
+            <li>
+              <a href="#">
+                <div class="homestay-bottom-img">
+        
+                  <img src="./images/index/homestay-bottom-03.jpg" alt="">
+                </div>
+                <h3>【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影</h3>
+                <h4>整套可住老城厢/鼓楼</h4>
+                <h5><span>￥</span>118</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影</h3>
-              <h4>整套1居室可住2人|老城厢/鼓楼</h4>
-              <h5><span>￥</span>118</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
-          <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-                <img src="./images/index/homestay-bottom-05.jpg" alt="">
+            </li>
+            <li>
+              <a href="#">
+                <div class="homestay-bottom-img">
+                  <img src="./images/index/homestay-bottom-04.jpg" alt="">
+                </div>
+                <h3>【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影</h3>
+                <h4>整套1居室可住2人|老城厢/鼓楼</h4>
+                <h5><span>￥</span>118</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>北欧**大床房</h3>
-              <h4>整套可住南市</h4>
-              <h5><span>￥</span>98</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
-          <li>
-            <a href="#">
-              <div class="homestay-bottom-img">
-                <img src="./images/index/homestay-bottom-06.jpg" alt="">
+            </li>
+            <li>
+              <a href="#">
+                <div class="homestay-bottom-img">
+                  <img src="./images/index/homestay-bottom-05.jpg" alt="">
+                </div>
+                <h3>北欧**大床房</h3>
+                <h4>整套可住南市</h4>
+                <h5><span>￥</span>98</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
               </div>
-              <h3>北欧**大床房</h3>
-              <h4>整套可住南市</h4>
-              <h5><span>￥</span>98</h5>
-            </a>
-            <!-- 小头像 -->
-            <div class="homestay-bottom-tou">
-              <img src="./images/index/homestay-bottom-tou.png" alt="">
-            </div>
-          </li>
+            </li>
+            <li>
+              <a href="#">
+                <div class="homestay-bottom-img">
+                  <img src="./images/index/homestay-bottom-06.jpg" alt="">
+                </div>
+                <h3>北欧**大床房</h3>
+                <h4>整套可住南市</h4>
+                <h5><span>￥</span>98</h5>
+              </a>
+              <!-- 小头像 -->
+              <div class="homestay-bottom-tou">
+                <img src="./images/index/homestay-bottom-tou.png" alt="">
+              </div>
+            </li>
+       </ul>
+       <ul class="minsu-ul ">
+          <img src="./images/index/minsu1.png" alt="">
         </ul>
-
+        <ul class="minsu-ul">
+            <img src="./images/index/minsu2.png" alt="">
+          </ul>
+          <ul class="minsu-ul">
+              <img src="./images/index/minsu3.png" alt="">
+            </ul>
+            <ul class="minsu-ul">
+                <img src="./images/index/minsu1.png" alt="">
+              </ul>
+              <ul class="minsu-ul">
+                  <img src="./images/index/minsu2.png" alt="">
+                </ul>
+                <ul class="minsu-ul">
+                    <img src="./images/index/minsu3.png" alt="">
+                  </ul>
+                  <ul class="minsu-ul">
+                      <img src="./images/index/minsu1.png" alt="">
+                    </ul>
+                    <ul class="minsu-ul">
+                        <img src="./images/index/minsu2.png" alt="">
+                      </ul>
+                      <ul class="minsu-ul">
+                          <img src="./images/index/minsu3.png" alt="">
+                        </ul>
+                      
       </div>
     </div>
   </div>
