@@ -561,7 +561,6 @@
   padding-left: 75px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .center .center-left .center-ke {
@@ -604,6 +603,15 @@
 
 .center .center-left .center-left-bottom p {
   font-size: 18px;
+}
+
+.center .center-right {
+  float: bottom;
+}
+
+.center .center-right img {
+  margin-left: 69px;
+  margin-top: 61px;
 }
 
 .foot {

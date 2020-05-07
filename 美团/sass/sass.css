@@ -269,6 +269,26 @@ body {
   position: relative;
 }
 
+.carousel-left-li .carousel-left-li-jiu-h {
+  position: absolute;
+  top: 4px;
+  left: 70px;
+  height: 17px;
+  font-size: 12px;
+  color: #222222;
+  background: #FFF3CC;
+  /* display: inline-block; */
+  border-radius: 10px;
+  padding: 3px 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 5px;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  /* position: relative; */
+  opacity: 1;
+}
+
 .carousel-left-li .carousel-left-box {
   display: none;
   position: absolute;
@@ -277,7 +297,7 @@ body {
   left: 229px;
   /* top: 202px; */
   /* left: 587px; */
-  height: 414px;
+  height: 417px;
   width: 400px;
   background-color: #ffffff;
   padding-left: 32px;
@@ -371,7 +391,7 @@ body {
 }
 
 .carousel-left-li-jia .carousel-left-box {
-  top: -311px;
+  top: -313px;
 }
 
 .carousel-left-li-xue .carousel-left-box {
@@ -584,6 +604,10 @@ body {
 .carousel .carousel-left > li:hover .carousel-left-li-a {
   font-weight: 600;
   color: #222222;
+}
+
+.carousel .carousel-left > li:hover .carousel-left-li-jiu-h {
+  background-color: #ffc500;
 }
 
 /* 2 轮播部分 carousel li里面的盒子 */
@@ -901,6 +925,7 @@ body {
 }
 
 .movie .movie-bottom #left {
+  display: none;
   position: absolute;
   top: 128px;
   left: 8px;
@@ -918,6 +943,7 @@ body {
 }
 
 .movie .movie-bottom #right {
+  display: none;
   position: absolute;
   top: 128px;
   right: 8px;
@@ -1328,6 +1354,7 @@ body {
 }
 
 .nav .nav-body-li-right li {
+  position: relative;
   height: 16px;
   margin-top: 12px;
   width: 102px;
@@ -1335,6 +1362,21 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.nav .nav-body-li-right li i {
+  position: absolute;
+  /* display: inline-block; */
+  left: 27px;
+  top: 0;
+  font-size: 12px;
+  color: #fff;
+  background: #FF4848;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 0 6px;
+  margin: 0 5px;
+  top: -1px;
 }
 
 .nav .nav-body-li-right li span {

@@ -138,3 +138,14 @@ $('#right').click(function () {
     'transition': '1.5s'
   })
 })
+
+
+$('.movie-bottom').mouseover(function () {
+  $('.movie-left').show()
+  $('.movie-right').show()
+
+})
+$('.movie-bottom').mouseleave(function () {
+  $('.movie-left').hide()
+  $('.movie-right').hide()
+})

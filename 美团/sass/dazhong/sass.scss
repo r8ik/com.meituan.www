@@ -522,7 +522,7 @@
     padding-top: 130px;
     padding-left: 75px;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.5);
+    // background-color: rgba(0, 0, 0, 0.5);
     .center-ke{
       height: 44px;
       width: 269px;
@@ -557,6 +557,14 @@
       p{
         font-size: 18px;
       }
+    }
+  }
+  .center-right{
+    float: bottom;
+    // bottom: 0;
+    img{
+      margin-left: 69px;
+    margin-top: 61px;
     }
   }
 }

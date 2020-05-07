@@ -106,10 +106,16 @@
     width: 100%;
     background-color: #f7f7f7;
   .intro-div{
+    position: relative;
     height: 490px;
     width: 100%;
     overflow: hidden;
     // background-color: aqua;
+    img{
+      position: absolute;
+      top: 26px;
+      right: -14px;
+    }
   }
   .intro-line{
     width: 100%;
